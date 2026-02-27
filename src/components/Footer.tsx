@@ -11,10 +11,10 @@ const Footer = () => {
             <span className="font-display text-lg font-bold">PDFNeo</span>
           </Link>
           <p className="max-w-md text-sm text-muted-foreground">
-            Free, open-source, and privacy-first PDF tools. Built with ❤️ for the web.
+            Free, open-source, and privacy-first PDF tools. Built with ❤️.
           </p>
           <div className="flex gap-6 text-sm text-muted-foreground">
-            <a href="https://github.com/kushwi15/PDFNeo" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
+            <a href="https://github.com/kushwi15" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
               GitHub
             </a>
             <Link to="/#privacy" className="hover:text-foreground transition-colors">

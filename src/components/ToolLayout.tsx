@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { ArrowLeft, Shield } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import SEO from "@/components/SEO";
 import type { LucideIcon } from "lucide-react";
 
 interface ToolLayoutProps {
@@ -15,6 +16,7 @@ interface ToolLayoutProps {
 const ToolLayout = ({ title, description, icon: Icon, children }: ToolLayoutProps) => {
   return (
     <div className="flex min-h-screen flex-col">
+      <SEO title={title} description={description} />
       <Navbar />
       <main className="flex-1 py-10">
         <div className="container max-w-3xl">

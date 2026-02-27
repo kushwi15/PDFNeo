@@ -2,10 +2,26 @@ import { motion } from "framer-motion";
 import { ShieldCheck, ServerOff, EyeOff, Trash2 } from "lucide-react";
 
 const items = [
-  { icon: ServerOff, label: "No servers", detail: "Zero backend infrastructure. Your browser does all the work." },
-  { icon: EyeOff, label: "No tracking", detail: "No analytics, no cookies, no fingerprinting. Period." },
-  { icon: Trash2, label: "Auto-delete", detail: "Files are wiped from memory when you close the tab or after timeout." },
-  { icon: ShieldCheck, label: "Auditable", detail: "Open-source code you can verify. Nothing hidden, ever." },
+  {
+    icon: ServerOff,
+    label: "No Cloud Servers",
+    detail: "We've removed the middleman. By performing all computations locally, we eliminate the need for document servers, reducing the attack surface to zero."
+  },
+  {
+    icon: EyeOff,
+    label: "Strict Anti-Tracking",
+    detail: "Most free tools monetize your data. We don't. We have no backend databases, no login requirements, and absolutely no data harvesting mechanisms."
+  },
+  {
+    icon: Trash2,
+    label: "Volatile Memory Only",
+    detail: "Your data is only as persistent as your current session. We utilize secure browser memory that is automatically reclaimed by the OS once your work is done."
+  },
+  {
+    icon: ShieldCheck,
+    label: "Fully Auditable Code",
+    detail: "Our commitment to security is backed by transparency. Our entire implementation is public, ensuring that our 'Privacy-First' promise is exactly what it says."
+  },
 ];
 
 const PrivacySection = () => {
