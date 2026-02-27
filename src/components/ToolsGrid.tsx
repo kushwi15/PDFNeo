@@ -5,7 +5,6 @@ const ToolsGrid = () => {
   const conversion = pdfTools.filter(t => t.category === "convert");
   const editing = pdfTools.filter(t => t.category === "edit");
   const security = pdfTools.filter(t => t.category === "security");
-  const comingSoon = pdfTools.filter(t => t.category === "coming-soon");
 
   return (
     <section id="tools" className="py-20">
@@ -19,7 +18,6 @@ const ToolsGrid = () => {
           <ToolSection title="Conversion" tools={conversion} startIndex={0} />
           <ToolSection title="Editing & Organization" tools={editing} startIndex={conversion.length} />
           <ToolSection title="Security" tools={security} startIndex={conversion.length + editing.length} />
-          <ToolSection title="Coming Soon" tools={comingSoon} startIndex={conversion.length + editing.length + security.length} />
         </div>
       </div>
     </section>

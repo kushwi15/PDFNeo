@@ -6,7 +6,7 @@ export interface PdfTool {
   description: string;
   icon: LucideIcon;
   route: string;
-  category: "convert" | "edit" | "security" | "coming-soon";
+  category: "convert" | "edit" | "security";
   comingSoon?: boolean;
 }
 
@@ -34,13 +34,13 @@ export const pdfTools: PdfTool[] = [
   { id: "unlock-pdf", name: "Unlock PDF", description: "Remove password from protected PDFs", icon: Unlock, route: "/tools/unlock-pdf", category: "security" },
 
   // Coming Soon
-  { id: "extract-images", name: "Extract Images", description: "Pull all images from a PDF document", icon: Image, route: "/tools/extract-images", category: "coming-soon", comingSoon: true },
-  { id: "watermark", name: "Add Watermark", description: "Add text or image watermarks to PDFs", icon: Stamp, route: "/tools/watermark", category: "coming-soon", comingSoon: true },
-  { id: "page-numbers", name: "Page Numbers", description: "Add page numbers to your PDF", icon: Hash, route: "/tools/page-numbers", category: "coming-soon", comingSoon: true },
-  { id: "header-footer", name: "Header & Footer", description: "Add headers and footers to PDF pages", icon: AlignLeft, route: "/tools/header-footer", category: "coming-soon", comingSoon: true },
-  { id: "esign", name: "eSign PDF", description: "Electronically sign your PDF documents", icon: PenTool, route: "/tools/esign", category: "coming-soon", comingSoon: true },
-  { id: "repair-pdf", name: "Repair PDF", description: "Fix corrupted or damaged PDF files", icon: Wrench, route: "/tools/repair-pdf", category: "coming-soon", comingSoon: true },
+  { id: "extract-images", name: "Extract Images", description: "Pull all images from a PDF document", icon: Image, route: "/tools/extract-images", category: "convert" },
+  { id: "watermark", name: "Add Watermark", description: "Add text or image watermarks to PDFs", icon: Stamp, route: "/tools/watermark", category: "edit" },
+  { id: "page-numbers", name: "Page Numbers", description: "Add page numbers to your PDF", icon: Hash, route: "/tools/page-numbers", category: "edit" },
+  { id: "header-footer", name: "Header & Footer", description: "Add headers and footers to PDF pages", icon: AlignLeft, route: "/tools/header-footer", category: "edit" },
+  { id: "esign", name: "eSign PDF", description: "Electronically sign your PDF documents", icon: PenTool, route: "/tools/esign", category: "edit" },
+  { id: "repair-pdf", name: "Repair PDF", description: "Fix corrupted or damaged PDF files", icon: Wrench, route: "/tools/repair-pdf", category: "edit" },
 ];
 
-export const coreTools = pdfTools.filter(t => !t.comingSoon);
-export const comingSoonTools = pdfTools.filter(t => t.comingSoon);
+export const coreTools = pdfTools;
+export const comingSoonTools = [];
