@@ -27,7 +27,7 @@ PDFNeo is a modern, client-side PDF editing application designed for speed, secu
 
 1. Clone the repository:
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/kushwi15/PDFNeo.git
    ```
 
 2. Install dependencies:

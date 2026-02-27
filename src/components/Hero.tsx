@@ -54,7 +54,7 @@ const Hero = () => {
             <Link to="/#tools">Explore Tools</Link>
           </Button>
           <Button size="lg" variant="outline" className="text-base px-8" asChild>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/kushwi15/PDFNeo" target="_blank" rel="noopener noreferrer">
               View on GitHub
             </a>
           </Button>

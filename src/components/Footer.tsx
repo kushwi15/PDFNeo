@@ -14,7 +14,7 @@ const Footer = () => {
             Free, open-source, and privacy-first PDF tools. Built with ❤️ for the web.
           </p>
           <div className="flex gap-6 text-sm text-muted-foreground">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
+            <a href="https://github.com/kushwi15/PDFNeo" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
               GitHub
             </a>
             <Link to="/#privacy" className="hover:text-foreground transition-colors">
