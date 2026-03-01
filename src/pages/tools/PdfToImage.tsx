@@ -7,8 +7,9 @@ import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { toast } from "sonner";
 
-// Set worker path
-pdfjsLib.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsLib.version}/pdf.worker.min.mjs`;
+// Use local worker
+import pdfjsWorker from "pdfjs-dist/build/pdf.worker.mjs?url";
+pdfjsLib.GlobalWorkerOptions.workerSrc = pdfjsWorker;
 
 const PdfToImage = () => {
     const [files, setFiles] = useState<File[]>([]);
@@ -21,6 +22,9 @@ const PdfToImage = () => {
         setProgress(0);
 
         try {
+            // Ensure worker is set
+            pdfjsLib.GlobalWorkerOptions.workerSrc = pdfjsWorker;
+
             const file = files[0];
             const arrayBuffer = await file.arrayBuffer();
             const loadingTask = pdfjsLib.getDocument({ data: arrayBuffer });
