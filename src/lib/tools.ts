@@ -27,6 +27,7 @@ export const pdfTools: PdfTool[] = [
   { id: "edit-metadata", name: "Edit Metadata", description: "Modify PDF title, author, and properties", icon: FileEdit, route: "/tools/edit-metadata", category: "edit" },
   { id: "crop-pdf", name: "Crop PDF", description: "Crop and trim PDF page margins", icon: Crop, route: "/tools/crop-pdf", category: "edit" },
   { id: "resize-pdf", name: "Resize PDF", description: "Change PDF page dimensions", icon: Maximize2, route: "/tools/resize-pdf", category: "edit" },
+  { id: "edit-pdf", name: "Edit PDF", description: "Edit text, add images, and modify PDF content directly", icon: FileEdit, route: "/tools/edit-pdf", category: "edit" },
   { id: "flatten-pdf", name: "Flatten PDF", description: "Flatten form fields and annotations", icon: Layers, route: "/tools/flatten-pdf", category: "edit" },
 
   // Core - Security

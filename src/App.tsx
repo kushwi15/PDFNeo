@@ -11,6 +11,7 @@ import RotatePdf from "./pages/tools/RotatePdf";
 import SplitPdf from "./pages/tools/SplitPdf";
 import ExtractPages from "./pages/tools/ExtractPages";
 import DeletePages from "./pages/tools/DeletePages";
+import EditPdf from "./pages/tools/EditPdf";
 import EditMetadata from "./pages/tools/EditMetadata";
 import ResizePdf from "./pages/tools/ResizePdf";
 import FlattenPdf from "./pages/tools/FlattenPdf";
@@ -46,6 +47,7 @@ const App = () => (
           <Route path="/tools/split-pdf" element={<SplitPdf />} />
           <Route path="/tools/extract-pages" element={<ExtractPages />} />
           <Route path="/tools/delete-pages" element={<DeletePages />} />
+          <Route path="/tools/edit-pdf" element={<EditPdf />} />
           <Route path="/tools/edit-metadata" element={<EditMetadata />} />
           <Route path="/tools/resize-pdf" element={<ResizePdf />} />
           <Route path="/tools/flatten-pdf" element={<FlattenPdf />} />

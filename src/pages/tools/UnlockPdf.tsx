@@ -1,7 +1,8 @@
 import { useState } from "react";
 import * as pdfjsLib from "pdfjs-dist";
 import { PDFDocument } from "pdf-lib";
-import { Unlock } from "lucide-react";
+import { decryptPDF } from "@pdfsmaller/pdf-decrypt";
+import { Unlock, Eye, EyeOff } from "lucide-react";
 import ToolLayout from "@/components/ToolLayout";
 import FileDropzone from "@/components/FileDropzone";
 import { Button } from "@/components/ui/button";
@@ -15,6 +16,7 @@ pdfjsLib.GlobalWorkerOptions.workerSrc = pdfjsWorker;
 const UnlockPdf = () => {
     const [files, setFiles] = useState<File[]>([]);
     const [password, setPassword] = useState("");
+    const [showPassword, setShowPassword] = useState(false);
     const [processing, setProcessing] = useState(false);
 
     const handleUnlock = async () => {
@@ -25,12 +27,14 @@ const UnlockPdf = () => {
             const file = files[0];
             const arrayBuffer = await file.arrayBuffer();
 
-            // We use pdf-lib to load with password and save without encryption
-            // Note: pdf-lib's save() currently exports unencrypted PDFs by default.
-            const pdfDoc = await PDFDocument.load(arrayBuffer, {
-                password: password || undefined,
+            // Decrypt the PDF
+            const originalBytes = new Uint8Array(arrayBuffer);
+            const decryptedBytes = await decryptPDF(originalBytes, password || "");
+
+            // Load the decrypted PDF using pdf-lib to rebuild it without the encryption dictionary
+            const pdfDoc = await PDFDocument.load(decryptedBytes, {
                 ignoreEncryption: false
-            } as any);
+            });
 
             const pdfBytes = await pdfDoc.save();
             const blob = new Blob([pdfBytes.buffer as ArrayBuffer], { type: "application/pdf" });
@@ -42,9 +46,16 @@ const UnlockPdf = () => {
             a.click();
             URL.revokeObjectURL(url);
             toast.success("PDF unlocked successfully! The new version has no password.");
-        } catch (error) {
+        } catch (error: any) {
             console.error("Unlock failed:", error);
-            toast.error("Failed to unlock PDF. Is the password correct?");
+            const errorMessage = error.message || "";
+            if (errorMessage.includes("Input document is encrypted with missing or incorrect password")) {
+                toast.error("Incorrect password. Please try again.");
+            } else if (errorMessage.includes("unsupported encryption algorithm") || errorMessage.includes("Cannot read properties of undefined")) {
+                toast.error("Failed to unlock. This PDF might use AES-256 encryption which is not currently supported.");
+            } else {
+                toast.error("Failed to unlock PDF. Ensure the file is not corrupted.");
+            }
         } finally {
             setProcessing(false);
         }
@@ -67,12 +78,26 @@ const UnlockPdf = () => {
                 <div className="mt-6 space-y-4 animate-in fade-in slide-in-from-bottom-4 duration-500">
                     <div className="space-y-2">
                         <label className="text-sm font-medium">Password</label>
-                        <Input
-                            type="password"
-                            value={password}
-                            onChange={(e) => setPassword(e.target.value)}
-                            placeholder="Enter PDF password..."
-                        />
+                        <div className="relative">
+                            <Input
+                                type={showPassword ? "text" : "password"}
+                                value={password}
+                                onChange={(e) => setPassword(e.target.value)}
+                                placeholder="Enter PDF password..."
+                                className="pr-10"
+                            />
+                            <button
+                                type="button"
+                                onClick={() => setShowPassword(!showPassword)}
+                                className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground"
+                            >
+                                {showPassword ? (
+                                    <EyeOff className="h-4 w-4" />
+                                ) : (
+                                    <Eye className="h-4 w-4" />
+                                )}
+                            </button>
+                        </div>
                     </div>
 
                     <Button
