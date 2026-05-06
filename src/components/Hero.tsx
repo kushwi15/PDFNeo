@@ -3,8 +3,11 @@ import logo from "@/assets/pdfneo-logo.png";
 import { Button } from "@/components/ui/button";
 import { Shield, Zap, Globe } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const Hero = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="relative overflow-hidden py-20 md:py-32">
       {/* Background decoration */}
@@ -28,9 +31,9 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="font-display text-4xl font-bold tracking-tight md:text-6xl lg:text-7xl"
         >
-          Every PDF tool you need.
+          {t('hero.title')}
           <br />
-          <span className="text-gradient">100% in your browser.</span>
+          <span className="text-gradient">{t('hero.titleGradient')}</span>
         </motion.h1>
 
         <motion.p
@@ -39,10 +42,10 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="mt-6 max-w-2xl text-lg text-muted-foreground md:text-xl"
         >
-          Your data is a right, not a resource. PDFNeo is a free PDF toolkit where
-          your files never leave your device. No uploads. No tracking. 100% Private.{" "}
+          {t('hero.subtitle')}
+          {" "}
           <Link to="/security" className="text-primary font-semibold hover:underline underline-offset-4">
-            Know how we keep your files safe &rarr;
+            {t('hero.securityLink')}
           </Link>
         </motion.p>
 
@@ -53,11 +56,11 @@ const Hero = () => {
           className="mt-10 flex flex-col gap-4 sm:flex-row"
         >
           <Button size="lg" className="text-base px-8" asChild>
-            <Link to="/#tools">Explore Tools</Link>
+            <Link to="/#tools">{t('hero.explore')}</Link>
           </Button>
           <Button size="lg" variant="outline" className="text-base px-8" asChild>
             <a href="https://github.com/kushwi15/PDFNeo" target="_blank" rel="noopener noreferrer">
-              View on GitHub
+              {t('hero.github')}
             </a>
           </Button>
         </motion.div>
@@ -70,15 +73,15 @@ const Hero = () => {
         >
           <div className="flex items-center gap-2">
             <Shield className="h-4 w-4 text-primary" />
-            <span>Privacy-first</span>
+            <span>{t('hero.badges.privacy')}</span>
           </div>
           <div className="flex items-center gap-2">
             <Zap className="h-4 w-4 text-primary" />
-            <span>No file uploads</span>
+            <span>{t('hero.badges.noUploads')}</span>
           </div>
           <div className="flex items-center gap-2">
             <Globe className="h-4 w-4 text-primary" />
-            <span>Open source</span>
+            <span>{t('hero.badges.openSource')}</span>
           </div>
         </motion.div>
       </div>

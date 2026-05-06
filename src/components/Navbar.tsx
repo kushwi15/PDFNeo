@@ -4,8 +4,11 @@ import { Github } from "lucide-react";
 import { NavLink } from "@/components/NavLink";
 import { Link } from "react-router-dom";
 import LanguageSelector from "./LanguageSelector";
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
+  const { t } = useTranslation();
+
   return (
     <nav className="sticky top-0 z-50 border-b bg-background/80 backdrop-blur-lg">
       <div className="container flex h-16 items-center justify-between">
@@ -22,24 +25,24 @@ const Navbar = () => {
             className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
             activeClassName="text-primary font-bold"
           >
-            Home
+            {t('nav.home')}
           </NavLink>
           <NavLink 
             to="/about" 
             className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
             activeClassName="text-primary font-bold"
           >
-            About
+            {t('nav.about')}
           </NavLink>
           <NavLink 
             to="/security" 
             className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
             activeClassName="text-green-600 font-bold"
           >
-            Security
+            {t('nav.security')}
           </NavLink>
           <Link to="/#tools" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">
-            Tools
+            {t('nav.tools')}
           </Link>
         </div>
 

@@ -1,8 +1,11 @@
 import logo from "@/assets/pdfneo-logo.png";
 import { Link } from "react-router-dom";
 import { NavLink } from "@/components/NavLink";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <footer className="border-t bg-secondary/20 py-12">
       <div className="container">
@@ -20,38 +23,38 @@ const Footer = () => {
               className="hover:text-foreground transition-colors"
               activeClassName="text-foreground font-bold"
             >
-              About
+              {t('nav.about')}
             </NavLink>
             <NavLink 
               to="/security" 
               className="hover:text-foreground transition-colors"
               activeClassName="text-green-600 font-bold"
             >
-              Security
+              {t('nav.security')}
             </NavLink>
             <NavLink 
               to="/privacy" 
               className="hover:text-foreground transition-colors"
               activeClassName="text-foreground font-bold"
             >
-              Privacy
+              {t('footer.privacy')}
             </NavLink>
             <NavLink 
               to="/terms" 
               className="hover:text-foreground transition-colors"
               activeClassName="text-foreground font-bold"
             >
-              Terms
+              {t('footer.terms')}
             </NavLink>
             <Link to="/about" className="hover:text-foreground transition-colors">
-              Contact
+              {t('footer.contact')}
             </Link>
             <a href="https://github.com/kushwi15" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
-              GitHub
+              {t('footer.github')}
             </a>
           </div>
           <p className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} PDFNeo. Open source under MIT License.
+            {t('footer.copyright', { year: new Date().getFullYear() })}
           </p>
         </div>
       </div>
