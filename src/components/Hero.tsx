@@ -41,7 +41,10 @@ const Hero = () => {
         >
           PDFNeo is a free, open-source PDF toolkit. Merge, split, compress,
           convert — your files never leave your device. No uploads. No tracking.
-          No servers.
+          No servers.{" "}
+          <Link to="/security" className="text-primary font-semibold hover:underline underline-offset-4">
+            Learn how we keep your files safe &rarr;
+          </Link>
         </motion.p>
 
         <motion.div

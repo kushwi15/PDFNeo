@@ -180,7 +180,7 @@ const PdfToWord = () => {
                                 font: "Arial",
                                 bold: isBold,
                                 italics: isItalic,
-                                spacing: spacing > 0 ? spacing : undefined,
+                                characterSpacing: spacing > 0 ? spacing : undefined,
                             });
                         }),
                     }));

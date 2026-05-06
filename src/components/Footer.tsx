@@ -13,16 +13,22 @@ const Footer = () => {
           <p className="max-w-md text-sm text-muted-foreground">
             Free, open-source, and privacy-first PDF tools. Built with ❤️.
           </p>
-          <div className="flex gap-6 text-sm text-muted-foreground">
+          <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 text-sm text-muted-foreground">
+            <Link to="/about" className="hover:text-foreground transition-colors">
+              About
+            </Link>
+            <Link to="/security" className="hover:text-foreground transition-colors text-green-600 font-semibold">
+              Security
+            </Link>
+            <Link to="/privacy" className="hover:text-foreground transition-colors">
+              Privacy
+            </Link>
+            <Link to="/terms" className="hover:text-foreground transition-colors">
+              Terms
+            </Link>
             <a href="https://github.com/kushwi15" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
               GitHub
             </a>
-            <Link to="/#privacy" className="hover:text-foreground transition-colors">
-              Privacy
-            </Link>
-            <Link to="/#tools" className="hover:text-foreground transition-colors">
-              Tools
-            </Link>
           </div>
           <p className="text-xs text-muted-foreground">
             © {new Date().getFullYear()} PDFNeo. Open source under MIT License.

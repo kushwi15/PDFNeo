@@ -12,7 +12,7 @@ const ScrollToHash = () => {
                 if (element) {
                     element.scrollIntoView({ behavior: "smooth" });
                 }
-            } else if (pathname === "/") {
+            } else {
                 window.scrollTo({ top: 0, behavior: "smooth" });
             }
         };

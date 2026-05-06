@@ -30,6 +30,10 @@ import ExtractImages from "./pages/tools/ExtractImages";
 import UnlockPdf from "./pages/tools/UnlockPdf";
 import ProtectPdf from "./pages/tools/ProtectPdf";
 import ToolPlaceholder from "./pages/tools/ToolPlaceholder";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsOfService from "./pages/TermsOfService";
+import AboutUs from "./pages/AboutUs";
+import Security from "./pages/Security";
 
 const queryClient = new QueryClient();
 
@@ -65,6 +69,10 @@ const App = () => (
           <Route path="/tools/extract-images" element={<ExtractImages />} />
           <Route path="/tools/unlock-pdf" element={<UnlockPdf />} />
           <Route path="/tools/protect-pdf" element={<ProtectPdf />} />
+          <Route path="/privacy" element={<PrivacyPolicy />} />
+          <Route path="/terms" element={<TermsOfService />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/security" element={<Security />} />
           <Route path="/tools/:toolId" element={<ToolPlaceholder />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
