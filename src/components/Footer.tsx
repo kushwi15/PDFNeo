@@ -1,5 +1,6 @@
 import logo from "@/assets/pdfneo-logo.png";
 import { Link } from "react-router-dom";
+import { NavLink } from "@/components/NavLink";
 
 const Footer = () => {
   return (
@@ -14,17 +15,36 @@ const Footer = () => {
             Free, open-source, and privacy-first PDF tools. Built with ❤️.
           </p>
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 text-sm text-muted-foreground">
-            <Link to="/about" className="hover:text-foreground transition-colors">
+            <NavLink 
+              to="/about" 
+              className="hover:text-foreground transition-colors"
+              activeClassName="text-foreground font-bold"
+            >
               About
-            </Link>
-            <Link to="/security" className="hover:text-foreground transition-colors text-green-600 font-semibold">
+            </NavLink>
+            <NavLink 
+              to="/security" 
+              className="hover:text-foreground transition-colors"
+              activeClassName="text-green-600 font-bold"
+            >
               Security
-            </Link>
-            <Link to="/privacy" className="hover:text-foreground transition-colors">
+            </NavLink>
+            <NavLink 
+              to="/privacy" 
+              className="hover:text-foreground transition-colors"
+              activeClassName="text-foreground font-bold"
+            >
               Privacy
-            </Link>
-            <Link to="/terms" className="hover:text-foreground transition-colors">
+            </NavLink>
+            <NavLink 
+              to="/terms" 
+              className="hover:text-foreground transition-colors"
+              activeClassName="text-foreground font-bold"
+            >
               Terms
+            </NavLink>
+            <Link to="/about" className="hover:text-foreground transition-colors">
+              Contact
             </Link>
             <a href="https://github.com/kushwi15" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
               GitHub

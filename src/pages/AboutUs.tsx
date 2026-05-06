@@ -1,6 +1,6 @@
 import SEO from "@/components/SEO";
 import ToolLayout from "@/components/ToolLayout";
-import { Info, Heart, Code, Shield } from "lucide-react";
+import { Info, Heart, Code, Shield, Github, Linkedin, Mail, Instagram, Phone } from "lucide-react";
 
 const AboutUs = () => {
     return (
@@ -13,12 +13,12 @@ const AboutUs = () => {
                 <section className="mb-12">
                     <h2 className="text-3xl font-bold mb-6">Our Mission</h2>
                     <p className="text-lg leading-relaxed">
-                        PDFNeo was born out of a simple problem: Most online PDF tools require you to upload your sensitive 
-                        documents to their servers. We believe that in the modern age, <strong>your data should stay your data.</strong>
+                        PDFNeo was born out of a simple problem: Most online PDF tools require you to upload your sensitive
+                        documents to their servers. We believe in a simple, non-negotiable truth: <strong>Your data is a right, not a resource, and it should stay exactly where it belongs: in your hands.</strong>
                     </p>
                     <p className="text-lg leading-relaxed mt-4">
-                        Our mission is to provide professional-grade PDF tools that are fast, free, and 100% private. 
-                        By leveraging the power of modern browsers, we've built a suite that handles complex PDF operations 
+                        Our mission is to provide professional-grade PDF tools that are fast, free, and 100% private.
+                        By leveraging the power of modern browsers, we've built a suite that handles complex PDF operations
                         without a single kilobyte ever leaving your device.
                     </p>
                 </section>
@@ -42,21 +42,67 @@ const AboutUs = () => {
                 </div>
 
                 <section className="mb-12">
-                    <h2 className="text-2xl font-bold mb-4">The Developer</h2>
-                    <p>
-                        PDFNeo is developed and maintained by <strong>Kushwinth Kumar</strong>. As a developer passionate about 
-                        privacy and web technology, I wanted to create a tool that I could trust with my own documents.
-                    </p>
-                    <p className="mt-4">
-                        You can find more of my work on <a href="https://github.com/kushwi15" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">GitHub</a>.
-                    </p>
+                    <h2 className="text-2xl font-bold mb-6">The Developer</h2>
+                    <div className="bg-secondary/10 rounded-2xl p-8 border border-secondary/20">
+                        <p className="mb-6">
+                            PDFNeo is developed and maintained by <strong>Kushwinth Kumar</strong>. As a developer passionate about
+                            privacy and web technology, I wanted to create a tool that users can trust with their most sensitive documents.
+                        </p>
+
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                            <a href="https://github.com/kushwi15" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-3 bg-white rounded-lg border hover:border-black transition-colors shadow-sm group">
+                                <Github className="h-5 w-5 text-black" />
+                                <div>
+                                    <p className="text-xs text-muted-foreground">Follow on GitHub</p>
+                                    <p className="text-sm font-semibold group-hover:text-black">@kushwi15</p>
+                                </div>
+                            </a>
+                            <a href="https://www.linkedin.com/in/kushwinthkumar/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-3 bg-white rounded-lg border hover:border-[#0077b5] transition-colors shadow-sm group">
+                                <Linkedin className="h-5 w-5 text-[#0077b5]" />
+                                <div>
+                                    <p className="text-xs text-muted-foreground">Professional Profile</p>
+                                    <p className="text-sm font-semibold group-hover:text-[#0077b5]">LinkedIn</p>
+                                </div>
+                            </a>
+                            <a href="mailto:kushwinthkumar0215@gmail.com?subject=Hello%20from%20PDFNeo&body=Hi%20Kushwinth,%20I%20just%20used%20PDFNeo%20and%20wanted%20to%20reach%20out!" className="flex items-center gap-3 p-3 bg-white rounded-lg border hover:border-red-400 transition-colors shadow-sm group">
+                                <Mail className="h-5 w-5 text-red-500" />
+                                <div>
+                                    <p className="text-xs text-muted-foreground">Email Me</p>
+                                    <p className="text-[12px] font-semibold group-hover:text-red-500 underline-offset-4 truncate max-w-[140px]">kushwinthkumar0215@gmail.com</p>
+                                </div>
+                            </a>
+                            <a href="https://ig.me/m/k_u_s_h_w_i" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-3 bg-white rounded-lg border hover:border-pink-500 transition-colors shadow-sm group">
+                                <Instagram className="h-5 w-5 text-pink-600" />
+                                <div>
+                                    <p className="text-xs text-muted-foreground">Direct Message</p>
+                                    <p className="text-sm font-semibold group-hover:text-pink-600">Instagram Chat</p>
+                                </div>
+                            </a>
+                            <a href="tel:+919390489074" className="flex items-center gap-3 p-3 bg-white rounded-lg border hover:border-green-500 transition-colors shadow-sm group">
+                                <Phone className="h-5 w-5 text-green-600" />
+                                <div>
+                                    <p className="text-xs text-muted-foreground">Call Me</p>
+                                    <p className="text-sm font-semibold group-hover:text-green-600">+91 93904 89074</p>
+                                </div>
+                            </a>
+                            <a href="https://wa.me/919390489074?text=Hi%20Kushwinth!%20I%20just%20used%20PDFNeo%20and%20wanted%20to%20connect." target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-3 bg-white rounded-lg border hover:border-[#25D366] transition-colors shadow-sm group">
+                                <svg className="h-5 w-5 text-[#25D366] fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/00/00">
+                                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                                </svg>
+                                <div>
+                                    <p className="text-xs text-muted-foreground">Chat with Me</p>
+                                    <p className="text-sm font-semibold group-hover:text-[#25D366]">WhatsApp</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </section>
 
                 <section className="mb-8">
                     <h2 className="text-2xl font-bold mb-4">Why PDFNeo?</h2>
                     <p>
-                        Most "free" online tools profit from your data or lock features behind subscriptions. PDFNeo is different. 
-                        It's a community-driven project aimed at making the web a safer place for document management. 
+                        Most "free" online tools profit from your data or lock features behind subscriptions. PDFNeo is different.
+                        It's a community-driven project aimed at making the web a safer place for document management.
                         We don't want your files; we just want to give you the tools to manage them yourself.
                     </p>
                 </section>

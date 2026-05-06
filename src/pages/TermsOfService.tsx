@@ -15,7 +15,7 @@ const TermsOfService = () => {
                 <section className="mb-8">
                     <h2 className="text-2xl font-bold mb-4">1. Acceptance of Terms</h2>
                     <p>
-                        By accessing or using PDFNeo, you agree to be bound by these Terms of Service. 
+                        By accessing or using PDFNeo, you agree to be bound by these Terms of Service.
                         If you do not agree, please do not use the application.
                     </p>
                 </section>
@@ -23,7 +23,7 @@ const TermsOfService = () => {
                 <section className="mb-8">
                     <h2 className="text-2xl font-bold mb-4">2. Description of Service</h2>
                     <p>
-                        PDFNeo is a client-side tool for editing and manipulating PDF documents. 
+                        PDFNeo is a client-side tool for editing and manipulating PDF documents.
                         The service is provided "as is" and "as available" without any warranties.
                     </p>
                 </section>
@@ -31,8 +31,8 @@ const TermsOfService = () => {
                 <section className="mb-8">
                     <h2 className="text-2xl font-bold mb-4">3. Local Processing</h2>
                     <p>
-                        You acknowledge that PDFNeo processes documents locally in your browser. 
-                        While this enhances privacy, you are responsible for maintaining backups of your original documents. 
+                        You acknowledge that PDFNeo processes documents locally in your browser.
+                        While this enhances privacy, you are responsible for maintaining backups of your original documents.
                         We are not liable for any data loss or document corruption.
                     </p>
                 </section>
@@ -54,7 +54,7 @@ const TermsOfService = () => {
                 <section className="mb-8">
                     <h2 className="text-2xl font-bold mb-4">6. Open Source</h2>
                     <p>
-                        PDFNeo is open-source software licensed under the MIT License. You are free to inspect, modify, and distribute the code 
+                        PDFNeo is open-source software licensed under the MIT License. You are free to inspect, modify, and distribute the code
                         according to the license terms.
                     </p>
                 </section>

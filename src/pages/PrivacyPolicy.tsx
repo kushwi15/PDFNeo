@@ -15,8 +15,8 @@ const PrivacyPolicy = () => {
                 <section className="mb-8">
                     <h2 className="text-2xl font-bold mb-4">1. Introduction</h2>
                     <p>
-                        Welcome to PDFNeo. We are committed to protecting your personal information and your right to privacy. 
-                        Unlike traditional PDF tools, PDFNeo is a <strong>client-side application</strong>, meaning the majority 
+                        Welcome to PDFNeo. We are committed to protecting your personal information and your right to privacy.
+                        Unlike traditional PDF tools, PDFNeo is a <strong>client-side application</strong>, meaning the majority
                         of your data never leaves your device.
                     </p>
                 </section>
@@ -28,7 +28,7 @@ const PrivacyPolicy = () => {
                             Critical Security Information:
                         </p>
                         <p className="text-blue-600">
-                            PDFNeo does not upload your PDF files to any server. All processing (merging, splitting, editing, etc.) 
+                            PDFNeo does not upload your PDF files to any server. All processing (merging, splitting, editing, etc.)
                             is performed locally within your web browser using WebAssembly and modern JavaScript APIs.
                         </p>
                     </div>
@@ -49,8 +49,8 @@ const PrivacyPolicy = () => {
                 <section className="mb-8">
                     <h2 className="text-2xl font-bold mb-4">4. Analytics</h2>
                     <p>
-                        We may use basic, anonymized analytics (like Vercel Analytics) to monitor site traffic and performance. 
-                        This data includes things like page views and browser types but <strong>never</strong> includes information 
+                        We may use basic, anonymized analytics (like Vercel Analytics) to monitor site traffic and performance.
+                        This data includes things like page views and browser types but <strong>never</strong> includes information
                         about the files you process.
                     </p>
                 </section>
@@ -58,7 +58,7 @@ const PrivacyPolicy = () => {
                 <section className="mb-8">
                     <h2 className="text-2xl font-bold mb-4">5. Third-Party Libraries</h2>
                     <p>
-                        PDFNeo uses industry-standard libraries like <code>pdf-lib</code> and <code>pdf.js</code>. 
+                        PDFNeo uses industry-standard libraries like <code>pdf-lib</code> and <code>pdf.js</code>.
                         These libraries are bundled with the application and also run entirely within your browser.
                     </p>
                 </section>

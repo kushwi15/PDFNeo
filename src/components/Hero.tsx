@@ -39,11 +39,10 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="mt-6 max-w-2xl text-lg text-muted-foreground md:text-xl"
         >
-          PDFNeo is a free, open-source PDF toolkit. Merge, split, compress,
-          convert — your files never leave your device. No uploads. No tracking.
-          No servers.{" "}
+          Your data is a right, not a resource. PDFNeo is a free PDF toolkit where
+          your files never leave your device. No uploads. No tracking. 100% Private.{" "}
           <Link to="/security" className="text-primary font-semibold hover:underline underline-offset-4">
-            Learn how we keep your files safe &rarr;
+            Know how we keep your files safe &rarr;
           </Link>
         </motion.p>
 
@@ -57,7 +56,7 @@ const Hero = () => {
             <Link to="/#tools">Explore Tools</Link>
           </Button>
           <Button size="lg" variant="outline" className="text-base px-8" asChild>
-            <a href="https://github.com/kushwi15" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/kushwi15/PDFNeo" target="_blank" rel="noopener noreferrer">
               View on GitHub
             </a>
           </Button>

@@ -8,6 +8,7 @@ const Security = () => {
             title="Security & Transparency"
             description="Detailed information on how PDFNeo keeps your documents safe."
             icon={Lock}
+            hideTrustBadges={true}
         >
             <div className="prose prose-blue max-w-4xl mx-auto py-8 text-left">
                 
