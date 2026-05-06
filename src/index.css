@@ -142,3 +142,54 @@
     background-clip: text;
   }
 }
+
+/* Google Translate Overrides */
+.goog-te-banner-frame.skiptranslate, 
+.goog-te-gadget-icon, 
+.goog-te-gadget-simple img, 
+.goog-te-menu-value span:nth-child(3),
+.goog-te-menu-value span:nth-child(5) {
+  display: none !important;
+}
+
+.goog-te-gadget-simple {
+  background-color: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  font-family: inherit !important;
+  font-size: 14px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.goog-te-menu-value {
+  margin: 0 !important;
+  color: hsl(var(--muted-foreground)) !important;
+  transition: color 0.2s !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 4px !important;
+}
+
+.goog-te-menu-value:hover {
+  color: hsl(var(--foreground)) !important;
+}
+
+.goog-te-menu-value span {
+  border: none !important;
+}
+
+body {
+  top: 0 !important;
+}
+
+.goog-tooltip, 
+.goog-tooltip:hover {
+  display: none !important;
+}
+
+.goog-text-highlight {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}

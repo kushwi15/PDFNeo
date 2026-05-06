@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Github } from "lucide-react";
 import { NavLink } from "@/components/NavLink";
 import { Link } from "react-router-dom";
+import LanguageSelector from "./LanguageSelector";
 
 const Navbar = () => {
   return (
@@ -43,6 +44,7 @@ const Navbar = () => {
         </div>
 
         <div className="flex items-center gap-3">
+          <LanguageSelector />
           <Button variant="ghost" size="icon" asChild>
             <a href="https://github.com/kushwi15/PDFNeo" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <Github className="h-5 w-5" />
