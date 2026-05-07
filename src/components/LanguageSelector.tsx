@@ -1,65 +1,90 @@
 import { useTranslation } from "react-i18next";
-import { Languages, Check } from "lucide-react";
-import { useState, useRef, useEffect } from "react";
-
-const languages = [
-  { code: 'en', name: 'English' },
-  { code: 'hi', name: 'हिन्दी' },
-  { code: 'es', name: 'Español' },
-  { code: 'fr', name: 'Français' },
-];
+import { Languages, Check, Search, Globe } from "lucide-react";
+import { useState } from "react";
+import { nativeLanguages } from "@/lib/languages";
+import {
+  Command,
+  CommandEmpty,
+  CommandGroup,
+  CommandInput,
+  CommandItem,
+  CommandList,
+} from "@/components/ui/command";
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover";
+import { Button } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 
 const LanguageSelector = () => {
   const { i18n } = useTranslation();
-  const [isOpen, setIsOpen] = useState(false);
-  const dropdownRef = useRef<HTMLDivElement>(null);
+  const [open, setOpen] = useState(false);
 
-  const currentLanguage = languages.find(lang => lang.code === i18n.language) || languages[0];
-
-  useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
-        setIsOpen(false);
-      }
-    };
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, []);
+  const currentLanguage = nativeLanguages.find(lang => lang.code === i18n.language) || nativeLanguages[0];
 
   const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng);
-    setIsOpen(false);
+    setOpen(false);
+    // Force a reload if using a fallback method like Google Translate for non-native languages
+    // But for now, we'll stick to our native list.
   };
 
   return (
-    <div className="relative" ref={dropdownRef}>
-      <button
-        onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-2 px-3 py-1.5 rounded-lg border bg-background/50 hover:bg-background hover:border-primary/50 transition-all cursor-pointer group"
-      >
-        <Languages className="h-4 w-4 text-muted-foreground group-hover:text-primary transition-colors" />
-        <span className="text-xs font-medium uppercase">{currentLanguage.code}</span>
-      </button>
-
-      {isOpen && (
-        <div className="absolute right-0 mt-2 w-40 rounded-xl border bg-card p-1 shadow-xl animate-in fade-in zoom-in duration-200 z-[100]">
-          {languages.map((lang) => (
-            <button
-              key={lang.code}
-              onClick={() => changeLanguage(lang.code)}
-              className={`flex items-center justify-between w-full px-3 py-2 rounded-lg text-sm transition-colors ${
-                i18n.language === lang.code
-                  ? "bg-primary/10 text-primary font-medium"
-                  : "hover:bg-secondary text-muted-foreground hover:text-foreground"
-              }`}
-            >
-              <span>{lang.name}</span>
-              {i18n.language === lang.code && <Check className="h-4 w-4" />}
-            </button>
-          ))}
-        </div>
-      )}
-    </div>
+    <Popover open={open} onOpenChange={setOpen}>
+      <PopoverTrigger asChild>
+        <Button
+          variant="outline"
+          role="combobox"
+          aria-expanded={open}
+          className="flex items-center gap-2 px-3 py-1.5 h-9 rounded-lg border bg-background/50 hover:bg-background hover:border-primary/50 transition-all group"
+        >
+          <Languages className="h-4 w-4 text-muted-foreground group-hover:text-primary transition-colors" />
+          <span className="text-xs font-medium uppercase">{currentLanguage.code}</span>
+        </Button>
+      </PopoverTrigger>
+      <PopoverContent className="w-[250px] p-0" align="end">
+        <Command>
+          <CommandInput placeholder="Search language..." />
+          <CommandList>
+            <CommandEmpty>No language found.</CommandEmpty>
+            <CommandGroup heading="Official Translations">
+              {nativeLanguages.map((lang) => (
+                <CommandItem
+                  key={lang.code}
+                  value={`${lang.name} ${lang.nativeName}`}
+                  onSelect={() => changeLanguage(lang.code)}
+                  className="flex items-center justify-between cursor-pointer"
+                >
+                  <div className="flex flex-col">
+                    <span className="text-sm font-medium">{lang.nativeName}</span>
+                    <span className="text-[10px] text-muted-foreground">{lang.name}</span>
+                  </div>
+                  {i18n.language === lang.code && (
+                    <Check className={cn("h-4 w-4 text-primary")} />
+                  )}
+                </CommandItem>
+              ))}
+            </CommandGroup>
+            
+            <CommandGroup heading="Automatic Translation">
+              <CommandItem 
+                className="flex items-center gap-2 cursor-pointer text-primary"
+                onSelect={() => {
+                  // This would trigger a Google Translate integration
+                  window.open(`https://translate.google.com/translate?sl=auto&tl=auto&u=${window.location.href}`, '_blank');
+                  setOpen(false);
+                }}
+              >
+                <Globe className="h-4 w-4" />
+                <span className="text-sm">Translate with Google</span>
+              </CommandItem>
+            </CommandGroup>
+          </CommandList>
+        </Command>
+      </PopoverContent>
+    </Popover>
   );
 };
 

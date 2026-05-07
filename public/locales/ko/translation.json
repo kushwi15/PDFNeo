@@ -1,0 +1,70 @@
+{
+  "nav": { "home": "홈", "about": "소개", "security": "보안", "tools": "도구" },
+  "hero": {
+    "title": "필요한 모든 PDF 도구.",
+    "titleGradient": "브라우저에서 100% 실행.",
+    "subtitle": "당신의 데이터는 권리이지 리소스가 아닙니다. PDFNeo는 파일이 장치를 절대 떠나지 않는 무료 PDF 툴킷입니다. 업로드 없음. 추적 없음. 100% 비공개.",
+    "securityLink": "파일을 안전하게 유지하는 방법 알아보기 →",
+    "explore": "도구 탐색",
+    "github": "GitHub에서 보기",
+    "badges": { "privacy": "개인정보 보호 우선", "noUploads": "파일 업로드 없음", "openSource": "오픈 소스" }
+  },
+  "toolsGrid": {
+    "title": "필요한 모든 PDF 도구",
+    "subtitle": "모든 도구는 브라우저에서 로컬로 실행됩니다. 아무것도 업로드되지 않습니다.",
+    "categories": { "conversion": "변환", "editing": "편집 및 구성", "security": "보안" }
+  },
+  "privacy": {
+    "title": "당신의 파일. 당신의 장치. 당신의 규칙.",
+    "subtitle": "PDFNeo는 문서가 컴퓨터를 절대 떠나지 않아야 한다는 간단한 원칙으로 만들어졌습니다.",
+    "cardTitle": "위험 없는 문서 처리",
+    "cardText": "은행 거래 내역서나 ID와 같은 민감한 문서를 처리하시나요? PDFNeo는 브라우저 메모리에서 완전히 오프라인으로 작동하므로 가장 안전한 옵션입니다.",
+    "verdict": "개인정보 보호 평결: 위험 제로",
+    "items": {
+      "noServers": { "title": "클라우드 서버 없음", "detail": "문서 서버의 필요성을 제거하여 공격 표면을 제로로 줄입니다." },
+      "noTracking": { "title": "엄격한 추적 방지", "detail": "백엔드 데이터베이스가 없고, 로그인 요구 사항이 없으며, 데이터 수집이 전혀 없습니다." },
+      "volatile": { "title": "휘발성 메모리 전용", "detail": "데이터는 현재 세션 동안만 유지됩니다. 완료되면 메모리가 회수됩니다." },
+      "auditable": { "title": "완벽하게 감사 가능한 코드", "detail": "우리의 모든 구현은 공개되어 있어 우리의 약속이 말 그대로임을 보장합니다." }
+    }
+  },
+  "footer": {
+    "copyright": "© {{year}} PDFNeo. MIT 라이선스에 따른 오픈 소스.",
+    "privacy": "개인정보 보호",
+    "terms": "약관",
+    "contact": "문의",
+    "github": "GitHub"
+  },
+  "about": {
+    "description": "현대적이고 개인정보 보호를 우선시하는 PDF 편집기 뒤에 숨겨진 이야기.",
+    "missionTitle": "우리의 사명",
+    "missionText": "PDFNeo는 간단한 문제에서 탄생했습니다. 대부분의 온라인 PDF 도구는 민감한 문서를 서버에 업로드해야 합니다. 우리는 간단하고 타협할 수 없는 진실을 믿습니다. 당신의 데이터는 권리이지 리소스가 아니며, 데이터가 속한 곳인 당신의 손안에 그대로 머물러야 합니다.",
+    "missionSubtext": "우리의 사명은 빠르고 무료이며 100% 비공개인 전문가 수준의 PDF 도구를 제공하는 것입니다.",
+    "privacyTitle": "개인정보 보호 우선",
+    "privacyText": "업로드 없음. 저장 없음. 파일에 대한 완전한 제어.",
+    "securityTitle": "본질적으로 안전",
+    "securityText": "최신 WebAssembly 기술을 사용한 100% 로컬 처리.",
+    "devTitle": "개발자",
+    "devText": "PDFNeo는 Kushwinth Kumar가 개발하고 유지 관리합니다. 개인정보 보호와 웹 기술에 열정적인 개발자로서 사용자가 가장 민감한 문서를 믿고 맡길 수 있는 도구를 만들고 싶었습니다.",
+    "connect": "개발자와 연결"
+  },
+  "security": {
+    "title": "보안 및 투명성",
+    "description": "PDFNeo가 문서를 안전하게 유지하는 방법에 대한 자세한 정보.",
+    "clientSideTitle": "100% 클라이언트 측 처리",
+    "clientSideText": "파일이 컴퓨터를 절대 떠나지 않습니다. 문서를 저장하는 서버가 없습니다.",
+    "howItWorks": "작동 방식",
+    "wasmTitle": "WebAssembly (WASM)",
+    "wasmText": "브라우저 메모리에서 직접 강력한 PDF 조작 로직을 실행하기 위해 WebAssembly를 사용합니다.",
+    "designTitle": "개인정보 보호 설계",
+    "designText": "\"업로드\" 단계가 없기 때문에 서버 측 유출이나 개발자가 파일을 가로챌 가능성이 없습니다.",
+    "hostingTitle": "정적 호스팅",
+    "hostingText": "PDFNeo는 정적 애플리케이션으로 호스팅됩니다. 일단 로드되면 이론적으로 인터넷 연결을 끊어도 여전히 작동합니다.",
+    "redFlags": "\"레드 플래그\" 해결",
+    "redFlagsSubtitle": "소규모 도구가 의심스러울 수 있음을 인지하고 있습니다. 보안을 확인하는 방법은 다음과 같습니다.",
+    "noTracking": "추적 없음: 침습적인 추적기를 사용하지 않으며 광고주에게 사용자 행동을 판매하지 않습니다.",
+    "openCode": "오픈 코드: 소스 코드가 공개되어 있습니다. 누구나 안전을 보장하기 위해 감사할 수 있습니다.",
+    "noAccount": "계정 필요 없음: 이메일이나 로그인을 절대 요구하지 않습니다. 당신의 신원은 당신의 것입니다.",
+    "sensitiveTitle": "민감한 데이터에 안전",
+    "sensitiveText": "PDFNeo는 은행 거래 내역서 및 법적 계약서와 같은 민감한 문서를 처리하기에 가장 안전한 곳 중 하나입니다."
+  }
+}

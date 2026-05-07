@@ -1,0 +1,70 @@
+{
+  "nav": { "home": "Beranda", "about": "Tentang Kami", "security": "Keamanan", "tools": "Alat" },
+  "hero": {
+    "title": "Setiap alat PDF yang Anda butuhkan.",
+    "titleGradient": "100% di browser Anda.",
+    "subtitle": "Data Anda adalah hak, bukan sumber daya. PDFNeo adalah toolkit PDF gratis di mana file Anda tidak pernah meninggalkan perangkat Anda. Tanpa unggahan. Tanpa pelacakan. 100% Pribadi.",
+    "securityLink": "Ketahui cara kami menjaga keamanan file Anda →",
+    "explore": "Jelajahi Alat",
+    "github": "Lihat di GitHub",
+    "badges": { "privacy": "Privasi diutamakan", "noUploads": "Tanpa unggahan file", "openSource": "Sumber terbuka" }
+  },
+  "toolsGrid": {
+    "title": "Semua alat PDF yang Anda butuhkan",
+    "subtitle": "Setiap alat berjalan secara lokal di browser Anda. Tidak ada yang pernah diunggah.",
+    "categories": { "conversion": "Konversi", "editing": "Pengeditan & Organisasi", "security": "Keamanan" }
+  },
+  "privacy": {
+    "title": "File Anda. Perangkat Anda. Aturan Anda.",
+    "subtitle": "PDFNeo dibangun dengan prinsip sederhana: dokumen Anda tidak boleh meninggalkan komputer Anda.",
+    "cardTitle": "Penanganan Dokumen Tanpa Risiko",
+    "cardText": "Memproses dokumen sensitif seperti rekening koran atau ID? PDFNeo adalah pilihan teraman karena bekerja sepenuhnya offline di memori browser Anda.",
+    "verdict": "Putusan Privasi: Nol Risiko",
+    "items": {
+      "noServers": { "title": "Tanpa Server Cloud", "detail": "Kami meniadakan kebutuhan akan server dokumen, mengurangi permukaan serangan hingga nol." },
+      "noTracking": { "title": "Anti-Pelacakan Ketat", "detail": "Kami tidak memiliki database backend, tidak ada persyaratan login, dan sama sekali tidak ada pemanenan data." },
+      "volatile": { "title": "Hanya Memori Volatile", "detail": "Data Anda hanya persisten selama sesi Anda saat ini. Memori diklaim kembali setelah Anda selesai." },
+      "auditable": { "title": "Kode yang Dapat Diaudit Sepenuhnya", "detail": "Seluruh implementasi kami bersifat publik, memastikan janji kami sesuai dengan apa yang dikatakannya." }
+    }
+  },
+  "footer": {
+    "copyright": "© {{year}} PDFNeo. Sumber terbuka di bawah Lisensi MIT.",
+    "privacy": "Privasi",
+    "terms": "Ketentuan",
+    "contact": "Kontak",
+    "github": "GitHub"
+  },
+  "about": {
+    "description": "Kisah di balik editor PDF modern yang mengutamakan privasi.",
+    "missionTitle": "Misi Kami",
+    "missionText": "PDFNeo lahir dari masalah sederhana: Sebagian besar alat PDF online mengharuskan Anda mengunggah dokumen sensitif ke server mereka. Kami percaya pada kebenaran sederhana yang tidak bisa ditawar: Data Anda adalah hak, bukan sumber daya, dan harus tetap berada di tempatnya: di tangan Anda.",
+    "missionSubtext": "Misi kami adalah menyediakan alat PDF tingkat profesional yang cepat, gratis, dan 100% pribadi.",
+    "privacyTitle": "Privasi Utama",
+    "privacyText": "Tanpa unggahan. Tanpa penyimpanan. Kontrol penuh atas file Anda.",
+    "securityTitle": "Aman secara Alami",
+    "securityText": "Pemrosesan lokal 100% menggunakan teknologi WebAssembly modern.",
+    "devTitle": "Pengembang",
+    "devText": "PDFNeo dikembangkan dan dikelola oleh Kushwinth Kumar. Sebagai pengembang yang bersemangat tentang privasi dan teknologi web, saya ingin membuat alat yang dapat dipercaya pengguna untuk dokumen paling sensitif mereka.",
+    "connect": "Hubungkan dengan Pengembang"
+  },
+  "security": {
+    "title": "Keamanan & Transparansi",
+    "description": "Informasi mendalam tentang cara PDFNeo menjaga keamanan dokumen Anda.",
+    "clientSideTitle": "Pemrosesan 100% di Sisi Klien",
+    "clientSideText": "File Anda tidak pernah meninggalkan komputer Anda. Kami tidak memiliki server yang menyimpan dokumen Anda.",
+    "howItWorks": "Cara Kerja",
+    "wasmTitle": "WebAssembly (WASM)",
+    "wasmText": "Kami menggunakan WebAssembly untuk menjalankan logika manipulasi PDF yang kuat langsung di memori browser Anda.",
+    "designTitle": "Privasi Berdasarkan Desain",
+    "designText": "Karena tidak ada langkah \"unggah\", tidak ada peluang untuk pelanggaran sisi server atau pengembang untuk mencegat file Anda.",
+    "hostingTitle": "Hosting Statis",
+    "hostingText": "PDFNeo dihosting sebagai aplikasi statis. Setelah dimuat, Anda secara teoritis dapat memutuskan koneksi dari internet dan aplikasi akan tetap berfungsi.",
+    "redFlags": "Menangani \"Bendera Merah\"",
+    "redFlagsSubtitle": "Kami menyadari bahwa alat kecil bisa mencurigakan. Inilah cara kami memverifikasi keamanan kami:",
+    "noTracking": "Tanpa Pelacakan: Kami tidak menggunakan pelacak invasif atau menjual perilaku Anda kepada pengiklan.",
+    "openCode": "Kode Terbuka: Kode sumber kami bersifat publik. Siapa pun dapat mengauditnya untuk memastikan keamanan.",
+    "noAccount": "Tanpa Akun: Kami tidak pernah meminta email atau login Anda. Identitas Anda adalah milik Anda.",
+    "sensitiveTitle": "Aman untuk Data Sensitif",
+    "sensitiveText": "PDFNeo adalah salah satu tempat teraman untuk memproses dokumen sensitif seperti rekening koran dan kontrak hukum."
+  }
+}

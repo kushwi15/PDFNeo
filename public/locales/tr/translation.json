@@ -1,0 +1,70 @@
+{
+  "nav": { "home": "Ana Sayfa", "about": "Hakkımızda", "security": "Güvenlik", "tools": "Araçlar" },
+  "hero": {
+    "title": "İhtiyacınız olan her PDF aracı.",
+    "titleGradient": "Tarayıcınızda %100.",
+    "subtitle": "Verileriniz bir kaynak değil, bir haktır. PDFNeo, dosyalarınızın cihazınızdan asla ayrılmadığı ücretsiz bir PDF araç takımıdır. Yükleme yok. Takip yok. %100 Özel.",
+    "securityLink": "Dosyalarınızı nasıl güvende tuttuğumuzu öğrenin →",
+    "explore": "Araçları Keşfedin",
+    "github": "GitHub'da Görüntüle",
+    "badges": { "privacy": "Önce gizlilik", "noUploads": "Dosya yükleme yok", "openSource": "Açık kaynak" }
+  },
+  "toolsGrid": {
+    "title": "İhtiyacınız olan tüm PDF araçları",
+    "subtitle": "Her araç tarayıcınızda yerel olarak çalışır. Hiçbir şey asla yüklenmez.",
+    "categories": { "conversion": "Dönüştürme", "editing": "Düzenleme ve Organizasyon", "security": "Güvenlik" }
+  },
+  "privacy": {
+    "title": "Dosyalarınız. Cihazınız. Kurallarınız.",
+    "subtitle": "PDFNeo basit bir ilke ile inşa edildi: belgeleriniz asla bilgisayarınızdan ayrılmamalıdır.",
+    "cardTitle": "Sıfır Riskli Belge İşleme",
+    "cardText": "Banka dökümleri veya kimlikler gibi hassas belgeleri mi işliyorsunuz? PDFNeo en güvenli seçenektir çünkü tamamen tarayıcı belleğinizde çevrimdışı çalışır.",
+    "verdict": "Gizlilik Kararı: Sıfır Risk",
+    "items": {
+      "noServers": { "title": "Bulut Sunucusu Yok", "detail": "Belge sunucularına olan ihtiyacı ortadan kaldırarak saldırı yüzeyini sıfıra indiriyoruz." },
+      "noTracking": { "title": "Sıkı Takip Karşıtlığı", "detail": "Arka uç veritabanımız yok, giriş gereksinimimiz yok ve kesinlikle veri toplama yok." },
+      "volatile": { "title": "Sadece Uçucu Bellek", "detail": "Verileriniz sadece mevcut oturumunuz süresince kalıcıdır. Bitirdiğinizde bellek geri alınır." },
+      "auditable": { "title": "Tamamen Denetlenebilir Kod", "detail": "Tüm uygulamamız halka açıktır, bu da vaadimizin tam olarak söylediğimiz şey olmasını sağlar." }
+    }
+  },
+  "footer": {
+    "copyright": "© {{year}} PDFNeo. MIT Lisansı altında açık kaynak.",
+    "privacy": "Gizlilik",
+    "terms": "Şartlar",
+    "contact": "İletişim",
+    "github": "GitHub"
+  },
+  "about": {
+    "description": "Modern, gizlilik odaklı PDF düzenleyicisinin arkasındaki hikaye.",
+    "missionTitle": "Misyonumuz",
+    "missionText": "PDFNeo basit bir sorundan doğdu: Çoğu çevrimiçi PDF aracı, hassas belgelerinizi sunucularına yüklemenizi gerektirir. Basit ve tartışılamaz bir gerçeğe inanıyoruz: Verileriniz bir kaynak değil, bir haktır ve ait olduğu yerde, yani sizin ellerinizde kalmalıdır.",
+    "missionSubtext": "Misyonumuz, hızlı, ücretsiz ve %100 özel profesyonel düzeyde PDF araçları sunmaktır.",
+    "privacyTitle": "Önce Gizlilik",
+    "privacyText": "Yükleme yok. Depolama yok. Dosyalarınız üzerinde tam kontrol.",
+    "securityTitle": "Doğası Gereği Güvenli",
+    "securityText": "Modern WebAssembly teknolojisini kullanarak %100 yerel işleme.",
+    "devTitle": "Geliştirici",
+    "devText": "PDFNeo, Kushwinth Kumar tarafından geliştirilmekte ve sürdürülmektedir. Gizlilik ve web teknolojisine tutkulu bir geliştirici olarak, kullanıcıların en hassas belgelerini emanet edebilecekleri bir araç oluşturmak istedim.",
+    "connect": "Geliştirici ile Bağlantı Kurun"
+  },
+  "security": {
+    "title": "Güvenlik ve Şeffaflık",
+    "description": "PDFNeo'nun belgelerinizi nasıl güvende tuttuğu hakkında ayrıntılı bilgi.",
+    "clientSideTitle": "%100 İstemci Tarafı İşleme",
+    "clientSideText": "Dosyalarınız bilgisayarınızdan asla ayrılmaz. Belgelerinizi saklayan sunucularımız yok.",
+    "howItWorks": "Nasıl Çalışır",
+    "wasmTitle": "WebAssembly (WASM)",
+    "wasmText": "Doğrudan tarayıcınızın belleğinde güçlü PDF işleme mantığını çalıştırmak için WebAssembly kullanıyoruz.",
+    "designTitle": "Tasarım Gereği Gizlilik",
+    "designText": "\"Yükleme\" adımı olmadığı için, sunucu tarafında bir ihlal veya bir geliştiricinin dosyalarınızı ele geçirme olasılığı yoktur.",
+    "hostingTitle": "Statik Barındırma",
+    "hostingText": "PDFNeo statik bir uygulama olarak barındırılır. Bir kez yüklendikten sonra teorik olarak internet bağlantısını kesebilirsiniz ve hala çalışmaya devam eder.",
+    "redFlags": "\"Kırmızı Bayrakları\" Ele Alma",
+    "redFlagsSubtitle": "Küçük araçların şüpheli olabileceğinin farkındayız. Güvenliğimizi şu şekilde doğruyoruz:",
+    "noTracking": "Takip Yok: İstilacı takipçiler kullanmıyoruz veya davranışlarınızı reklamverenlere satmıyoruz.",
+    "openCode": "Açık Kod: Kaynak kodumuz halka açıktır. Güvenliği sağlamak için herkes denetleyebilir.",
+    "noAccount": "Hesap Gerekmez: Asla e-postanızı veya giriş bilgilerinizi istemiyoruz. Kimliğiniz size aittir.",
+    "sensitiveTitle": "Hassas Veriler İçin Güvenli",
+    "sensitiveText": "PDFNeo, banka dökümleri ve yasal sözleşmeler gibi hassas belgeleri işlemek için en güvenli yerlerden biridir."
+  }
+}

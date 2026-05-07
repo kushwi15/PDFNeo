@@ -1,0 +1,83 @@
+export interface Language {
+  code: string;
+  name: string;
+  nativeName: string;
+}
+
+export const languages: Language[] = [
+  { code: 'en', name: 'English', nativeName: 'English' },
+  { code: 'hi', name: 'Hindi', nativeName: 'हिन्दी' },
+  { code: 'es', name: 'Spanish', nativeName: 'Español' },
+  { code: 'fr', name: 'French', nativeName: 'Français' },
+  { code: 'zh', name: 'Chinese (Simplified)', nativeName: '简体中文' },
+  { code: 'ar', name: 'Arabic', nativeName: 'العربية' },
+  { code: 'pt', name: 'Portuguese', nativeName: 'Português' },
+  { code: 'ru', name: 'Russian', nativeName: 'Русский' },
+  { code: 'ja', name: 'Japanese', nativeName: '日本語' },
+  { code: 'de', name: 'German', nativeName: 'Deutsch' },
+  { code: 'ko', name: 'Korean', nativeName: '한국어' },
+  { code: 'it', name: 'Italian', nativeName: 'Italiano' },
+  { code: 'tr', name: 'Turkish', nativeName: 'Türkçe' },
+  { code: 'vi', name: 'Vietnamese', nativeName: 'Tiếng Việt' },
+  { code: 'pl', name: 'Polish', nativeName: 'Polski' },
+  { code: 'nl', name: 'Dutch', nativeName: 'Nederlands' },
+  { code: 'id', name: 'Indonesian', nativeName: 'Bahasa Indonesia' },
+  { code: 'th', name: 'Thai', nativeName: 'ไทย' },
+  { code: 'bn', name: 'Bengali', nativeName: 'বাংলা' },
+  { code: 'pa', name: 'Punjabi', nativeName: 'ਪੰਜਾਬੀ' },
+  { code: 'mr', name: 'Marathi', nativeName: 'मराठी' },
+  { code: 'te', name: 'Telugu', nativeName: 'తెలుగు' },
+  { code: 'ta', name: 'Tamil', nativeName: 'தமிழ்' },
+  { code: 'ur', name: 'Urdu', nativeName: 'اردو' },
+  { code: 'fa', name: 'Persian', nativeName: 'فارسی' },
+  { code: 'sw', name: 'Swahili', nativeName: 'Kiswahili' },
+  { code: 'ms', name: 'Malay', nativeName: 'Bahasa Melayu' },
+  { code: 'tl', name: 'Tagalog', nativeName: 'Tagalog' },
+  { code: 'uk', name: 'Ukrainian', nativeName: 'Українська' },
+  { code: 'ro', name: 'Romanian', nativeName: 'Română' },
+  { code: 'el', name: 'Greek', nativeName: 'Ελληνικά' },
+  { code: 'hu', name: 'Hungarian', nativeName: 'Magyar' },
+  { code: 'cs', name: 'Czech', nativeName: 'Čeština' },
+  { code: 'sv', name: 'Swedish', nativeName: 'Svenska' },
+  { code: 'fi', name: 'Finnish', nativeName: 'Suomi' },
+  { code: 'da', name: 'Danish', nativeName: 'Dansk' },
+  { code: 'no', name: 'Norwegian', nativeName: 'Norsk' },
+  { code: 'he', name: 'Hebrew', nativeName: 'עברית' },
+  { code: 'sk', name: 'Slovak', nativeName: 'Slovenčina' },
+  { code: 'bg', name: 'Bulgarian', nativeName: 'Български' },
+  { code: 'sr', name: 'Serbian', nativeName: 'Српски' },
+  { code: 'hr', name: 'Croatian', nativeName: 'Hrvatski' },
+  { code: 'lt', name: 'Lithuanian', nativeName: 'Lietuvių' },
+  { code: 'lv', name: 'Latvian', nativeName: 'Latviešu' },
+  { code: 'et', name: 'Estonian', nativeName: 'Eesti' },
+  { code: 'sl', name: 'Slovenian', nativeName: 'Slovenščina' },
+  { code: 'af', name: 'Afrikaans', nativeName: 'Afrikaans' },
+  { code: 'am', name: 'Amharic', nativeName: 'አማርኛ' },
+  { code: 'az', name: 'Azerbaijani', nativeName: 'Azərbaycanca' },
+  { code: 'be', name: 'Belarusian', nativeName: 'Беларуская' },
+  { code: 'bs', name: 'Bosnian', nativeName: 'Bosanski' },
+  { code: 'ca', name: 'Catalan', nativeName: 'Català' },
+  { code: 'eo', name: 'Esperanto', nativeName: 'Esperanto' },
+  { code: 'eu', name: 'Basque', nativeName: 'Euskara' },
+  { code: 'gl', name: 'Galician', nativeName: 'Galego' },
+  { code: 'gu', name: 'Gujarati', nativeName: 'ગુજરાતી' },
+  { code: 'is', name: 'Icelandic', nativeName: 'Íslenska' },
+  { code: 'ka', name: 'Georgian', nativeName: 'ქართული' },
+  { code: 'kn', name: 'Kannada', nativeName: 'ಕನ್ನಡ' },
+  { code: 'km', name: 'Khmer', nativeName: 'ខ្មែរ' },
+  { code: 'lo', name: 'Lao', nativeName: 'ລາວ' },
+  { code: 'ml', name: 'Malayalam', nativeName: 'മലയാളം' },
+  { code: 'mn', name: 'Mongolian', nativeName: 'Монгол' },
+  { code: 'my', name: 'Burmese', nativeName: 'မြန်မာစာ' },
+  { code: 'ne', name: 'Nepali', nativeName: 'नेपाली' },
+  { code: 'si', name: 'Sinhala', nativeName: 'සිංහල' },
+  { code: 'sq', name: 'Albanian', nativeName: 'Shqip' },
+  { code: 'uz', name: 'Uzbek', nativeName: 'Oʻzbekcha' },
+];
+
+export const NATIVE_LANGUAGE_CODES = [
+  'en', 'hi', 'es', 'fr', 'zh', 'ar', 'pt', 'ru', 'ja', 'de', 'ko', 'it', 'tr', 'vi', 'pl', 'nl', 'id', 'th', 'bn', 'pa', 'mr', 'te', 'ta', 'ur', 'fa', 'sw', 'kn', 'ml'
+];
+
+export const nativeLanguages = languages.filter(lang => NATIVE_LANGUAGE_CODES.includes(lang.code));
+export const otherLanguages = languages.filter(lang => !NATIVE_LANGUAGE_CODES.includes(lang.code));

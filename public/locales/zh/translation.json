@@ -1,0 +1,125 @@
+{
+  "nav": { "home": "首页", "about": "关于我们", "security": "安全", "tools": "工具" },
+  "hero": {
+    "title": "您需要的每一个 PDF 工具。",
+    "titleGradient": "100% 在您的浏览器中运行。",
+    "subtitle": "您的数据是一项权利，而不是资源。PDFNeo 是一个免费的 PDF 工具包，您的文件永远不会离开您的设备。无上传。无跟踪。100% 私密。",
+    "securityLink": "了解我们如何保护您的文件安全 →",
+    "explore": "探索工具",
+    "github": "在 GitHub 上查看",
+    "badges": { "privacy": "隐私优先", "noUploads": "无文件上传", "openSource": "开源" }
+  },
+  "toolsGrid": {
+    "title": "您需要的所有 PDF 工具",
+    "subtitle": "每个工具都在您的浏览器本地运行。绝不上传任何内容。",
+    "categories": { "conversion": "转换", "editing": "编辑与组织", "security": "安全" }
+  },
+  "privacy": {
+    "title": "您的文件。您的设备。您的规则。",
+    "subtitle": "PDFNeo 的构建基于一个简单的原则：您的文档永远不应离开您的计算机。",
+    "cardTitle": "零风险文档处理",
+    "cardText": "处理银行对账单或 ID 等敏感文档？PDFNeo 是最安全的选择，因为它在浏览器内存中完全脱机工作。",
+    "verdict": "隐私判定：零风险",
+    "items": {
+      "noServers": { "title": "无云服务器", "detail": "我们消除了对文档服务器的需求，将攻击面降至零。" },
+      "noTracking": { "title": "严格的反跟踪", "detail": "我们没有后端数据库，没有登录要求，绝对没有数据收集。" },
+      "volatile": { "title": "仅限挥发性内存", "detail": "您的数据仅在当前会话期间有效。完成后内存将立即回收。" },
+      "auditable": { "title": "完全可审计的代码", "detail": "我们的整个实现都是公开的，确保我们的承诺言行一致。" }
+    }
+  },
+  "footer": {
+    "copyright": "© {{year}} PDFNeo。MIT 许可证下的开源软件。",
+    "privacy": "隐私",
+    "terms": "条款",
+    "contact": "联系我们",
+    "github": "GitHub"
+  },
+  "about": {
+    "description": "现代、隐私优先的 PDF 编辑器背后的故事。",
+    "missionTitle": "我们的使命",
+    "missionText": "PDFNeo 诞生于一个简单的问题：大多数在线 PDF 工具都要求您将敏感文档上传到其服务器。我们相信一个简单、不可谈判的真理：您的数据是一项权利，而不是资源，它应该留在它所属的地方：在您手中。",
+    "missionSubtext": "我们的使命是提供快速、免费且 100% 私密的专业级 PDF 工具。",
+    "privacyTitle": "隐私第一",
+    "privacyText": "无上传。无存储。完全控制您的文件。",
+    "securityTitle": "本质安全",
+    "securityText": "使用现代 WebAssembly 技术进行 100% 本地处理。",
+    "devTitle": "开发者",
+    "devText": "PDFNeo 由 Kushwinth Kumar 开发和维护。作为一名对隐私和 Web 技术充满热情的开发者，我想创建一款用户可以放心托付其最敏感文档的工具。",
+    "connect": "联系开发者"
+  },
+  "security": {
+    "title": "安全与透明度",
+    "description": "有关 PDFNeo 如何保护您的文档安全的详细信息。",
+    "clientSideTitle": "100% 客户端处理",
+    "clientSideText": "您的文件永远不会离开您的计算机。我们没有存储您文档的服务器。",
+    "howItWorks": "工作原理",
+    "wasmTitle": "WebAssembly (WASM)",
+    "wasmText": "我们使用 WebAssembly 直接在浏览器内存中运行强大的 PDF 操作逻辑。",
+    "designTitle": "隐私设计",
+    "designText": "由于没有“上传”步骤，因此不存在服务器端泄露或开发者拦截您文件的机会。",
+    "hostingTitle": "静态托管",
+    "hostingText": "PDFNeo 作为静态应用程序托管。加载后，理论上您可以断开互联网连接，它仍然可以工作。",
+    "redFlags": "解决“红旗”问题",
+    "redFlagsSubtitle": "我们意识到小型工具可能会令人怀疑。以下是我们验证安全性的方法：",
+    "noTracking": "无跟踪：我们不使用侵入性跟踪器，也不向广告商出售您的行为数据。",
+    "openCode": "开源代码：我们的源代码是公开的。任何人都可以对其进行审计以确保安全。",
+    "noAccount": "无需帐户：我们从不询问您的电子邮件或登录信息。您的身份属于您自己。",
+    "sensitiveTitle": "适用于敏感数据",
+    "sensitiveText": "PDFNeo 是处理银行对账单和法律合同等敏感文档的最安全场所之一。"
+  },
+  "features": {
+    "title": "为隐私而生。为速度而设计。",
+    "subtitle": "PDFNeo 从头开始设计，旨在保护您的数据。",
+    "items": {
+      "private": {
+        "title": "100% 私密且安全",
+        "description": "您的文档永远不会离开您的身边。与传统的在线 PDF 编辑器不同，PDFNeo 在浏览器沙箱环境中本地处理每一个字节。无上传，无服务器端存储，数据泄露风险为零。"
+      },
+      "performance": {
+        "title": "高性能处理",
+        "description": "体验复杂任务的原生级速度。利用 Web Workers 等现代浏览器技术和专用库，我们能以闪电般的效率处理大型 PDF、高分辨率图像和复杂的文本提取。"
+      },
+      "noTracking": {
+        "title": "零分析或跟踪",
+        "description": "您的隐私是我们的规范，而不仅仅是一项功能。我们不使用 Cookie、跟踪像素或第三方分析。我们无法知道您是谁或您正在处理什么 — 这正是它应有的样子。"
+      },
+      "memory": {
+        "title": "纯本地内存",
+        "description": "无持久存储，无隐藏缓存。所有文件数据都临时存在于浏览器的 RAM 中，并在您关闭选项卡或完成任务时立即清除。您的磁盘保持清洁，您的数据始终属于您。"
+      },
+      "instant": {
+        "title": "即时执行",
+        "description": "消除“上传-等待-下载”循环。由于处理发生在您自己的硬件上，即使是数百页的文档也会在您放入的瞬间开始转换。无队列，无服务器延迟，只有即时结果。"
+      },
+      "openSource": {
+        "title": "透明且开源",
+        "description": "信任但要验证。PDFNeo 完全开源，允许研究人员和开发人员审核我们的安全声明。您甚至可以分叉存储库并托管您自己的私人实例，以实现完整的架构控制。"
+      }
+    }
+  },
+  "tools": {
+    "pdf-to-word": { "name": "PDF 转 Word", "description": "将 PDF 文档转换为可编辑的 Word 文件" },
+    "pdf-to-image": { "name": "PDF 转图像", "description": "将 PDF 页面导出为高质量图像" },
+    "pdf-to-text": { "name": "PDF 转文本", "description": "提取 PDF 的所有文本内容" },
+    "image-to-pdf": { "name": "图像转 PDF", "description": "将图像组合成单个 PDF" },
+    "merge-pdf": { "name": "合并 PDF", "description": "将多个 PDF 合并为一个文档" },
+    "split-pdf": { "name": "拆分 PDF", "description": "将一个 PDF 拆分为单独的文档" },
+    "compress-pdf": { "name": "压缩 PDF", "description": "在不损失质量的情况下减小 PDF 文件大小" },
+    "rotate-pdf": { "name": "旋转 PDF", "description": "将 PDF 页面旋转到任何方向" },
+    "delete-pages": { "name": "删除页面", "description": "从 PDF 中删除不需要的页面" },
+    "extract-pages": { "name": "提取页面", "description": "从 PDF 中提取特定页面" },
+    "edit-metadata": { "name": "编辑元数据", "description": "修改 PDF 标题、作者和属性" },
+    "crop-pdf": { "name": "裁剪 PDF", "description": "裁剪并修剪 PDF 页面边距" },
+    "resize-pdf": { "name": "调整 PDF 大小", "description": "更改 PDF 页面尺寸" },
+    "edit-pdf": { "name": "编辑 PDF", "description": "直接编辑文本、添加图像并修改 PDF 内容" },
+    "flatten-pdf": { "name": "展平 PDF", "description": "展平表单字段和注释" },
+    "protect-pdf": { "name": "保护 PDF", "description": "为您的 PDF 添加密码保护" },
+    "unlock-pdf": { "name": "解锁 PDF", "description": "从受保护的 PDF 中删除密码" },
+    "extract-images": { "name": "提取图像", "description": "从 PDF 文档中提取所有图像" },
+    "watermark": { "name": "添加水印", "description": "为 PDF 添加文本或图像水印" },
+    "page-numbers": { "name": "页码", "description": "为您的 PDF 添加页码" },
+    "header-footer": { "name": "页眉页脚", "description": "为 PDF 页面添加页眉和页脚" },
+    "esign": { "name": "电子签名 PDF", "description": "以电子方式签署您的 PDF 文档" },
+    "repair-pdf": { "name": "修复 PDF", "description": "修复损坏或受损的 PDF 文件" }
+  }
+}

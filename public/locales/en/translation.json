@@ -1,0 +1,150 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "security": "Security",
+    "tools": "Tools"
+  },
+  "hero": {
+    "title": "Every PDF tool you need.",
+    "titleGradient": "100% in your browser.",
+    "subtitle": "Your data is a right, not a resource. PDFNeo is a free PDF toolkit where your files never leave your device. No uploads. No tracking. 100% Private.",
+    "securityLink": "Know how we keep your files safe →",
+    "explore": "Explore Tools",
+    "github": "View on GitHub",
+    "badges": {
+      "privacy": "Privacy-first",
+      "noUploads": "No file uploads",
+      "openSource": "Open source"
+    }
+  },
+  "toolsGrid": {
+    "title": "All the PDF tools you need",
+    "subtitle": "Every tool runs locally in your browser. Nothing is ever uploaded.",
+    "categories": {
+      "conversion": "Conversion",
+      "editing": "Editing & Organization",
+      "security": "Security"
+    }
+  },
+  "privacy": {
+    "title": "Your files. Your device. Your rules.",
+    "subtitle": "PDFNeo was built with a simple principle: your documents should never leave your computer.",
+    "cardTitle": "Zero-Risk Document Handling",
+    "cardText": "Processing sensitive documents like bank statements or IDs? PDFNeo is the safest option because it works entirely offline in your browser memory.",
+    "verdict": "Privacy Verdict: Zero Risk",
+    "items": {
+      "noServers": {
+        "title": "No Cloud Servers",
+        "detail": "We eliminate the need for document servers, reducing the attack surface to zero."
+      },
+      "noTracking": {
+        "title": "Strict Anti-Tracking",
+        "detail": "We have no backend databases, no login requirements, and absolutely no data harvesting."
+      },
+      "volatile": {
+        "title": "Volatile Memory Only",
+        "detail": "Your data is only as persistent as your current session. Memory is reclaimed once you finish."
+      },
+      "auditable": {
+        "title": "Fully Auditable Code",
+        "detail": "Our entire implementation is public, ensuring our promise is exactly what it says."
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© {{year}} PDFNeo. Open source under MIT License.",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "contact": "Contact",
+    "github": "GitHub"
+  },
+  "about": {
+    "description": "The story behind the modern, privacy-first PDF editor.",
+    "missionTitle": "Our Mission",
+    "missionText": "PDFNeo was born out of a simple problem: Most online PDF tools require you to upload your sensitive documents to their servers. We believe in a simple, non-negotiable truth: Your data is a right, not a resource, and it should stay exactly where it belongs: in your hands.",
+    "missionSubtext": "Our mission is to provide professional-grade PDF tools that are fast, free, and 100% private.",
+    "privacyTitle": "Privacy First",
+    "privacyText": "No uploads. No storage. Total control over your files.",
+    "securityTitle": "Secure by Nature",
+    "securityText": "100% local processing using modern WebAssembly technology.",
+    "devTitle": "The Developer",
+    "devText": "PDFNeo is developed and maintained by Kushwinth Kumar. As a developer passionate about privacy and web technology, I wanted to create a tool that users can trust with their most sensitive documents.",
+    "connect": "Connect with the Developer"
+  },
+  "security": {
+    "title": "Security & Transparency",
+    "description": "Detailed information on how PDFNeo keeps your documents safe.",
+    "clientSideTitle": "100% Client-Side Processing",
+    "clientSideText": "Your files never leave your computer. We don't have servers that store your documents.",
+    "howItWorks": "How it Works",
+    "wasmTitle": "WebAssembly (WASM)",
+    "wasmText": "We use WebAssembly to run powerful PDF manipulation logic directly in your browser's memory.",
+    "designTitle": "Privacy by Design",
+    "designText": "Because there is no \"upload\" step, there is no chance for a server-side breach or a developer to intercept your files.",
+    "hostingTitle": "Static Hosting",
+    "hostingText": "PDFNeo is hosted as a static application. Once loaded, you could theoretically disconnect from the internet and it would still work.",
+    "redFlags": "Addressing \"Red Flags\"",
+    "redFlagsSubtitle": "We are aware that small tools can be suspicious. Here is how we verify our safety:",
+    "noTracking": "No Tracking: We don't use invasive trackers or sell your behavior to advertisers.",
+    "openCode": "Open Code: Our source code is public. Anyone can audit it to ensure safety.",
+    "noAccount": "No Account Required: We never ask for your email or login. Your identity is your own.",
+    "sensitiveTitle": "Safe for Sensitive Data",
+    "sensitiveText": "PDFNeo is one of the safest places to process sensitive documents like bank statements and legal contracts."
+  },
+  "features": {
+    "title": "Built for privacy. Engineered for speed.",
+    "subtitle": "PDFNeo is designed from the ground up to protect your data.",
+    "items": {
+      "private": {
+        "title": "100% Private & Secure",
+        "description": "Your documents never leave your side. Unlike traditional online PDF editors, PDFNeo processes every single byte locally within your browser's sandbox environment. No uploads, no server-side storage, and zero risk of data breaches."
+      },
+      "performance": {
+        "title": "High-Performance Processing",
+        "description": "Experience native-level speed for complex tasks. Leveraging modern browser technologies like Web Workers and specialized libraries, we handle large PDFs, high-resolution images, and intricate text extractions with lightning efficiency."
+      },
+      "noTracking": {
+        "title": "Zero Analytics or Tracking",
+        "description": "Your privacy is our specification, not just a feature. We do not use cookies, tracking pixels, or third-party analytics. We have no way of knowing who you are or what you are processing — exactly how it should be."
+      },
+      "memory": {
+        "title": "Pure Local Memory",
+        "description": "No persistent storage, no hidden caches. All file data lives temporarily in your browser's RAM and is instantly purged the moment you close the tab or finish your task. Your disk remains clean, and your data remains yours."
+      },
+      "instant": {
+        "title": "Instant Execution",
+        "description": "Eliminate the 'Upload-Wait-Download' cycle. Since processing happens on your own hardware, even multi-hundred page documents begin transforming the second you drop them. No queues, no server lag, just instant results."
+      },
+      "openSource": {
+        "title": "Transparent & Open Source",
+        "description": "Trust but verify. PDFNeo is fully open-source, allowing researchers and developers to audit our security claims. You can even fork the repository and host your own private instance for complete infrastructure control."
+      }
+    }
+  },
+  "tools": {
+    "pdf-to-word": { "name": "PDF to Word", "description": "Convert PDF documents to editable Word files" },
+    "pdf-to-image": { "name": "PDF to Image", "description": "Export PDF pages as high-quality images" },
+    "pdf-to-text": { "name": "PDF to Text", "description": "Extract all text content from PDFs" },
+    "image-to-pdf": { "name": "Image to PDF", "description": "Combine images into a single PDF" },
+    "merge-pdf": { "name": "Merge PDF", "description": "Combine multiple PDFs into one document" },
+    "split-pdf": { "name": "Split PDF", "description": "Split a PDF into separate documents" },
+    "compress-pdf": { "name": "Compress PDF", "description": "Reduce PDF file size without losing quality" },
+    "rotate-pdf": { "name": "Rotate PDF", "description": "Rotate PDF pages to any orientation" },
+    "delete-pages": { "name": "Delete Pages", "description": "Remove unwanted pages from your PDF" },
+    "extract-pages": { "name": "Extract Pages", "description": "Extract specific pages from a PDF" },
+    "edit-metadata": { "name": "Edit Metadata", "description": "Modify PDF title, author, and properties" },
+    "crop-pdf": { "name": "Crop PDF", "description": "Crop and trim PDF page margins" },
+    "resize-pdf": { "name": "Resize PDF", "description": "Change PDF page dimensions" },
+    "edit-pdf": { "name": "Edit PDF", "description": "Edit text, add images, and modify PDF content directly" },
+    "flatten-pdf": { "name": "Flatten PDF", "description": "Flatten form fields and annotations" },
+    "protect-pdf": { "name": "Protect PDF", "description": "Add password protection to your PDF" },
+    "unlock-pdf": { "name": "Unlock PDF", "description": "Remove password from protected PDFs" },
+    "extract-images": { "name": "Extract Images", "description": "Pull all images from a PDF document" },
+    "watermark": { "name": "Add Watermark", "description": "Add text or image watermarks to PDFs" },
+    "page-numbers": { "name": "Page Numbers", "description": "Add page numbers to your PDF" },
+    "header-footer": { "name": "Header & Footer", "description": "Add headers and footers to PDF pages" },
+    "esign": { "name": "eSign PDF", "description": "Electronically sign your PDF documents" },
+    "repair-pdf": { "name": "Repair PDF", "description": "Fix corrupted or damaged PDF files" }
+  }
+}

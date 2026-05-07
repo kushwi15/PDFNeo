@@ -1,0 +1,70 @@
+{
+  "nav": { "home": "Nyumbani", "about": "Kuhusu Sisi", "security": "Usalama", "tools": "Zana" },
+  "hero": {
+    "title": "Kila zana ya PDF unayohitaji.",
+    "titleGradient": "100% kwenye kivinjari chako.",
+    "subtitle": "Data yako ni haki, si rasilimali. PDFNeo ni seti ya zana za PDF ya bure ambapo faili zako hazitoki kwenye kifaa chako kamwe. Hakuna upakiaji. Hakuna ufuatiliaji. 100% Binafsi.",
+    "securityLink": "Jua jinsi tunavyoweka faili zako salama →",
+    "explore": "Gundua Zana",
+    "github": "Tazama kwenye GitHub",
+    "badges": { "privacy": "Faragha kwanza", "noUploads": "Hakuna upakiaji wa faili", "openSource": "Chanzo huru" }
+  },
+  "toolsGrid": {
+    "title": "Zana zote za PDF unazohitaji",
+    "subtitle": "Kila zana inafanya kazi ndani ya kivinjari chako. Hakuna chochote kinachopakiliwa kamwe.",
+    "categories": { "conversion": "Ubadilishaji", "editing": "Uhariri na Upangaji", "security": "Usalama" }
+  },
+  "privacy": {
+    "title": "Faili zako. Kifaa chako. Sheria zako.",
+    "subtitle": "PDFNeo ilijengwa kwa kanuni rahisi: nyaraka zako hazipaswi kutoka kwenye kompyuta yako kamwe.",
+    "cardTitle": "Ushughulikiaji wa Nyaraka Bila Hatari",
+    "cardText": "Je, unashughulikia nyaraka nyeti kama taarifa za benki au vitambulisho? PDFNeo ndio chaguo salama zaidi kwa sababu inafanya kazi nje ya mtandao kabisa kwenye kumbukumbu ya kivinjari chako.",
+    "verdict": "Uamuzi wa Faragha: Hatari Sifuri",
+    "items": {
+      "noServers": { "title": "Hakuna Seva za Wingu", "detail": "Tunaondoa hitaji la seva za nyaraka, tukipunguza uwezekano wa kushambuliwa hadi sifuri." },
+      "noTracking": { "title": "Uzuiaji Mkali wa Ufuatiliaji", "detail": "Hatuna hifadhidata za nyuma, hakuna mahitaji ya kuingia, na hakuna kabisa uvunaji wa data." },
+      "volatile": { "title": "Kumbukumbu ya Muda Tu", "detail": "Data yako inabaki tu wakati wa kikao chako cha sasa. Kumbukumbu inarudishwa mara tu unapomaliza." },
+      "auditable": { "title": "Nambari ya Siri Inayoweza Kukaguliwa", "detail": "Utekelezaji wetu wote ni wa umma, kuhakikisha ahadi yetu ni sawa na kile inachosema." }
+    }
+  },
+  "footer": {
+    "copyright": "© {{year}} PDFNeo. Chanzo huru chini ya Leseni ya MIT.",
+    "privacy": "Faragha",
+    "terms": "Masharti",
+    "contact": "Wasiliana",
+    "github": "GitHub"
+  },
+  "about": {
+    "description": "Hadithi nyuma ya kihariri cha PDF cha kisasa, kinachozingatia faragha.",
+    "missionTitle": "Dhamira Yetu",
+    "missionText": "PDFNeo ilizaliwa kutokana na tatizo rahisi: Zana nyingi za PDF mtandaoni zinakuhitaji upakie nyaraka zako nyeti kwenye seva zao. Tunaamini katika ukweli rahisi, usiojadilika: Data yako ni haki, si rasilimali, na inapaswa kubaki pale inapostahili: mikononi mwako.",
+    "missionSubtext": "Dhamira yetu ni kutoa zana za PDF za kiwango cha kitaalamu ambazo ni za haraka, za bure, na 100% za binafsi.",
+    "privacyTitle": "Faragha Kwanza",
+    "privacyText": "Hakuna upakiaji. Hakuna uhifadhi. Udhibiti kamili juu ya faili zako.",
+    "securityTitle": "Salama kwa Asili",
+    "securityText": "Ushughulikiaji wa 100% wa ndani kwa kutumia teknolojia ya kisasa ya WebAssembly.",
+    "devTitle": "Mundaji",
+    "devText": "PDFNeo inatengenezwa na kudumishwa na Kushwinth Kumar. Kama mundaji anayependa faragha na teknolojia ya wavuti, nilitaka kuunda zana ambayo watumiaji wanaweza kuamini na nyaraka zao nyeti zaidi.",
+    "connect": "Ungana na Mundaji"
+  },
+  "security": {
+    "title": "Usalama na Uwazi",
+    "description": "Habari za kina kuhusu jinsi PDFNeo inavyoweka nyaraka zako salama.",
+    "clientSideTitle": "Ushughulikiaji wa 100% wa Upande wa Mteja",
+    "clientSideText": "Faili zako hazitoki kwenye kompyuta yako kamwe. Hatuna seva zinazohifadhi nyaraka zako.",
+    "howItWorks": "Inavyofanya Kazi",
+    "wasmTitle": "WebAssembly (WASM)",
+    "wasmText": "Tunatumia WebAssembly kuendesha mantiki yenye nguvu ya ujanja wa PDF moja kwa moja kwenye kumbukumbu ya kivinjari chako.",
+    "designTitle": "Faragha kwa Ubunifu",
+    "designText": "Kwa sababu hakuna hatua ya \"upakiaji\", hakuna nafasi ya ukiukaji wa upande wa seva au mundaji kuingilia faili zako.",
+    "hostingTitle": "Usimamizi Tuli (Static Hosting)",
+    "hostingText": "PDFNeo inasimamiwa kama programu tuli. Mara baada ya kupakiwa, unaweza kinadharia kukata mtandao na bado ingefanya kazi.",
+    "redFlags": "Kushughulikia \"Ishara Nyekundu\"",
+    "redFlagsSubtitle": "Tunafahamu kuwa zana ndogo zinaweza kutiliwa shaka. Hivi ndivyo tunavyothibitisha usalama wetu:",
+    "noTracking": "Hakuna Ufuatiliaji: Hatutumii vifuataji vamizi au kuuza tabia yako kwa watangazaji.",
+    "openCode": "Nambari ya Siri Huria: Nambari yetu ya siri ni ya umma. Mtu yeyote anaweza kuikagua ili kuhakikisha usalama.",
+    "noAccount": "Hakuna Akaunti Inahitajika: Hatuulizi barua pepe yako au kuingia kamwe. Utambulisho wako ni wako mwenyewe.",
+    "sensitiveTitle": "Salama kwa Data Nyeti",
+    "sensitiveText": "PDFNeo ni moja ya maeneo salama zaidi ya kushughulikia nyaraka nyeti kama taarifa za benki na mikataba ya kisheria."
+  }
+}

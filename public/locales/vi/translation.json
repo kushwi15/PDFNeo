@@ -1,0 +1,70 @@
+{
+  "nav": { "home": "Trang chủ", "about": "Giới thiệu", "security": "Bảo mật", "tools": "Công cụ" },
+  "hero": {
+    "title": "Mọi công cụ PDF bạn cần.",
+    "titleGradient": "100% trên trình duyệt của bạn.",
+    "subtitle": "Dữ liệu của bạn là một quyền, không phải là một tài nguyên. PDFNeo là một bộ công cụ PDF miễn phí, nơi các tệp của bạn không bao giờ rời khỏi thiết bị của bạn. Không tải lên. Không theo dõi. Riêng tư 100%.",
+    "securityLink": "Tìm hiểu cách chúng tôi giữ an toàn cho tệp của bạn →",
+    "explore": "Khám phá các công cụ",
+    "github": "Xem trên GitHub",
+    "badges": { "privacy": "Quyền riêng tư là trên hết", "noUploads": "Không tải tệp lên", "openSource": "Mã nguồn mở" }
+  },
+  "toolsGrid": {
+    "title": "Tất cả các công cụ PDF bạn cần",
+    "subtitle": "Mọi công cụ đều chạy cục bộ trong trình duyệt của bạn. Không có gì được tải lên.",
+    "categories": { "conversion": "Chuyển đổi", "editing": "Chỉnh sửa & Tổ chức", "security": "Bảo mật" }
+  },
+  "privacy": {
+    "title": "Tệp của bạn. Thiết bị của bạn. Quy tắc của bạn.",
+    "subtitle": "PDFNeo được xây dựng trên một nguyên tắc đơn giản: tài liệu của bạn không bao giờ được rời khỏi máy tính của bạn.",
+    "cardTitle": "Xử lý tài liệu không rủi ro",
+    "cardText": "Bạn đang xử lý các tài liệu nhạy cảm như sao kê ngân hàng hoặc ID? PDFNeo là tùy chọn an toàn nhất vì nó hoạt động hoàn toàn ngoại tuyến trong bộ nhớ trình duyệt của bạn.",
+    "verdict": "Phán quyết về quyền riêng tư: Không rủi ro",
+    "items": {
+      "noServers": { "title": "Không có máy chủ đám mây", "detail": "Chúng tôi loại bỏ nhu cầu về máy chủ tài liệu, giảm bề mặt tấn công xuống bằng không." },
+      "noTracking": { "title": "Chống theo dõi nghiêm ngặt", "detail": "Chúng tôi không có cơ sở dữ liệu phụ trợ, không yêu cầu đăng nhập và tuyệt đối không thu thập dữ liệu." },
+      "volatile": { "title": "Chỉ bộ nhớ tạm thời", "detail": "Dữ liệu của bạn chỉ tồn tại trong phiên hiện tại của bạn. Bộ nhớ được thu hồi sau khi bạn hoàn thành." },
+      "auditable": { "title": "Mã có thể kiểm tra đầy đủ", "detail": "Toàn bộ quá trình thực hiện của chúng tôi là công khai, đảm bảo lời hứa của chúng tôi đúng như những gì đã nói." }
+    }
+  },
+  "footer": {
+    "copyright": "© {{year}} PDFNeo. Mã nguồn mở theo Giấy phép MIT.",
+    "privacy": "Quyền riêng tư",
+    "terms": "Điều khoản",
+    "contact": "Liên hệ",
+    "github": "GitHub"
+  },
+  "about": {
+    "description": "Câu chuyện đằng sau trình chỉnh sửa PDF hiện đại, ưu tiên quyền riêng tư.",
+    "missionTitle": "Sứ mệnh của chúng tôi",
+    "missionText": "PDFNeo ra đời từ một vấn đề đơn giản: Hầu hết các công cụ PDF trực tuyến yêu cầu bạn tải các tài liệu nhạy cảm của mình lên máy chủ của họ. Chúng tôi tin vào một sự thật đơn giản, không thể thương lượng: Dữ liệu của bạn là một quyền, không phải là một tài nguyên và nó phải ở đúng nơi của nó: trong tay bạn.",
+    "missionSubtext": "Sứ mệnh của chúng tôi là cung cấp các công cụ PDF cấp chuyên nghiệp, nhanh chóng, miễn phí và riêng tư 100%.",
+    "privacyTitle": "Quyền riêng tư là trên hết",
+    "privacyText": "Không tải lên. Không lưu trữ. Kiểm soát hoàn toàn các tệp của bạn.",
+    "securityTitle": "An toàn từ bản chất",
+    "securityText": "Xử lý cục bộ 100% bằng công nghệ WebAssembly hiện đại.",
+    "devTitle": "Nhà phát triển",
+    "devText": "PDFNeo được phát triển và duy trì bởi Kushwinth Kumar. Là một nhà phát triển đam mê quyền riêng tư và công nghệ web, tôi muốn tạo ra một công cụ mà người dùng có thể tin tưởng với những tài liệu nhạy cảm nhất của họ.",
+    "connect": "Kết nối với nhà phát triển"
+  },
+  "security": {
+    "title": "Bảo mật & Minh bạch",
+    "description": "Thông tin chi tiết về cách PDFNeo giữ an toàn cho tài liệu của bạn.",
+    "clientSideTitle": "Xử lý 100% phía máy khách",
+    "clientSideText": "Các tệp của bạn không bao giờ rời khỏi máy tính của bạn. Chúng tôi không có máy chủ lưu trữ tài liệu của bạn.",
+    "howItWorks": "Cách thức hoạt động",
+    "wasmTitle": "WebAssembly (WASM)",
+    "wasmText": "Chúng tôi sử dụng WebAssembly để chạy logic thao tác PDF mạnh mẽ trực tiếp trong bộ nhớ trình duyệt của bạn.",
+    "designTitle": "Quyền riêng tư theo thiết kế",
+    "designText": "Vì không có bước \"tải lên\", nên không có cơ hội bị vi phạm từ phía máy chủ hoặc nhà phát triển chặn các tệp của bạn.",
+    "hostingTitle": "Lưu trữ tĩnh",
+    "hostingText": "PDFNeo được lưu trữ dưới dạng một ứng dụng tĩnh. Sau khi tải xong, về mặt lý thuyết bạn có thể ngắt kết nối Internet và nó vẫn hoạt động.",
+    "redFlags": "Giải quyết \"Cờ đỏ\"",
+    "redFlagsSubtitle": "Chúng tôi biết rằng các công cụ nhỏ có thể đáng ngờ. Đây là cách chúng tôi xác minh sự an toàn của mình:",
+    "noTracking": "Không theo dõi: Chúng tôi không sử dụng các trình theo dõi xâm nhập hoặc bán hành vi của bạn cho các nhà quảng cáo.",
+    "openCode": "Mã nguồn mở: Mã nguồn của chúng tôi là công khai. Bất kỳ ai cũng có thể kiểm tra để đảm bảo an toàn.",
+    "noAccount": "Không yêu cầu tài khoản: Chúng tôi không bao giờ yêu cầu email hoặc thông tin đăng nhập của bạn. Danh tính của bạn là của riêng bạn.",
+    "sensitiveTitle": "An toàn cho dữ liệu nhạy cảm",
+    "sensitiveText": "PDFNeo là một trong những nơi an toàn nhất để xử lý các tài liệu nhạy cảm như sao kê ngân hàng và hợp đồng pháp lý."
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "nav": { "home": "Accueil", "about": "À propos", "security": "Sécurité", "tools": "Outils" },
+  "hero": {
+    "title": "Tous les outils PDF dont vous avez besoin.",
+    "titleGradient": "100% dans votre navigateur.",
+    "subtitle": "Vos données sont un droit, pas une ressource. PDFNeo est une boîte à outils PDF gratuite où vos fichiers ne quittent jamais votre appareil. Pas de téléchargement. Pas de suivi. 100% privé.",
+    "securityLink": "Savoir comment nous protégeons vos fichiers →",
+    "explore": "Explorer les outils",
+    "github": "Voir sur GitHub",
+    "badges": { "privacy": "Confidentialité d'abord", "noUploads": "Pas d'envoi de fichiers", "openSource": "Open source" }
+  },
+  "toolsGrid": {
+    "title": "Tous les outils PDF dont vous avez besoin",
+    "subtitle": "Chaque outil s'exécute localement dans votre navigateur. Rien n'est jamais envoyé.",
+    "categories": { "conversion": "Conversion", "editing": "Édition & Organisation", "security": "Sécurité" }
+  },
+  "privacy": {
+    "title": "Vos fichiers. Votre appareil. Vos règles.",
+    "subtitle": "PDFNeo a été construit avec un principe simple : vos documents ne devraient jamais quitter votre ordinateur.",
+    "cardTitle": "Gestion de documents sans risque",
+    "cardText": "Vous traitez des documents sensibles comme des relevés bancaires ou des pièces d'identité ? PDFNeo est l'option la plus sûre car elle fonctionne entièrement hors ligne dans la mémoire de votre navigateur.",
+    "verdict": "Verdict de confidentialité : Zéro risque",
+    "items": {
+      "noServers": { "title": "Pas de serveurs cloud", "detail": "Nous éliminons le besoin de serveurs de documents, réduisant la surface d'attaque à zéro." },
+      "noTracking": { "title": "Anti-suivi strict", "detail": "Nous n'avons pas de bases de données backend, pas d'exigences de connexion, et absolument aucune collecte de données." },
+      "volatile": { "title": "Mémoire volatile uniquement", "detail": "Vos données ne sont persistantes que pendant la durée de votre session actuelle. La mémoire est récupérée une fois terminé." },
+      "auditable": { "title": "Code entièrement auditable", "detail": "Toute notre implémentation est publique, garantissant que notre promesse est exactement ce qu'elle dit." }
+    }
+  },
+  "footer": {
+    "copyright": "© {{year}} PDFNeo. Open source sous licence MIT.",
+    "privacy": "Confidentialité",
+    "terms": "Conditions",
+    "contact": "Contact",
+    "github": "GitHub"
+  },
+  "about": {
+    "description": "L'histoire derrière l'éditeur PDF moderne et respectueux de la vie privée.",
+    "missionTitle": "Notre Mission",
+    "missionText": "PDFNeo est né d'un problème simple : la plupart des outils PDF en ligne vous obligent à télécharger vos documents sensibles sur leurs serveurs. Nous croyons en une vérité simple et non négociable : vos données sont un droit, pas une ressource, et elles doivent rester exactement là où elles doivent être : entre vos mains.",
+    "missionSubtext": "Notre mission est de fournir des outils PDF de qualité professionnelle rapides, gratuits et 100 % privés.",
+    "privacyTitle": "Confidentialité d'abord",
+    "privacyText": "Pas d'envoi. Pas de stockage. Contrôle total sur vos fichiers.",
+    "securityTitle": "Sécurisé par Nature",
+    "securityText": "Traitement 100 % local utilisant la technologie moderne WebAssembly.",
+    "devTitle": "Le Développeur",
+    "devText": "PDFNeo est développé et maintenu par Kushwinth Kumar. En tant que développeur passionné par la confidentialité et la technologie Web, je voulais créer un outil auquel les utilisateurs peuvent faire confiance pour leurs documents les plus sensibles.",
+    "connect": "Contacter le Développeur"
+  },
+  "security": {
+    "title": "Sécurité & Transparence",
+    "description": "Informations détaillées sur la façon dont PDFNeo protège vos documents.",
+    "clientSideTitle": "Traitement 100 % côté client",
+    "clientSideText": "Vos fichiers ne quittent jamais votre ordinateur. Nous n'avons pas de serveurs qui stockent vos documents.",
+    "howItWorks": "Comment ça marche",
+    "wasmTitle": "WebAssembly (WASM)",
+    "wasmText": "Nous utilisons WebAssembly pour exécuter une logique de manipulation PDF puissante directement dans la mémoire de votre navigateur.",
+    "designTitle": "Confidentialité dès la conception",
+    "designText": "Comme il n'y a pas d'étape d'envoi, il n'y a aucune chance de violation du côté du serveur ou d'interception de vos fichiers par un développeur.",
+    "hostingTitle": "Hébergement statique",
+    "hostingText": "PDFNeo est hébergé en tant qu'application statique. Une fois chargé, vous pourriez théoriquement vous déconnecter d'Internet et cela fonctionnerait toujours.",
+    "redFlags": "Répondre aux \"drapeaux rouges\"",
+    "redFlagsSubtitle": "Nous sommes conscients que les petits outils peuvent être suspects. Voici comment nous vérifions notre sécurité :",
+    "noTracking": "Pas de suivi : nous n'utilisons pas de trackers invasifs et ne vendons pas votre comportement aux annonceurs.",
+    "openCode": "Code source ouvert : notre code source est public. Tout le monde peut l'auditer pour garantir la sécurité.",
+    "noAccount": "Aucun compte requis : nous ne demandons jamais votre e-mail ou votre identifiant. Votre identité vous appartient.",
+    "sensitiveTitle": "Sûr pour les données sensibles",
+    "sensitiveText": "PDFNeo est l'un des endroits les plus sûrs pour traiter des documents sensibles tels que des relevés bancaires et des contrats juridiques."
+  },
+  "features": {
+    "title": "Conçu pour la confidentialité. Pensé pour la vitesse.",
+    "subtitle": "PDFNeo est conçu dès le départ pour protéger vos données.",
+    "items": {
+      "private": {
+        "title": "100% Privé & Sécurisé",
+        "description": "Vos documents ne vous quittent jamais. Contrairement aux éditeurs PDF en ligne traditionnels, PDFNeo traite chaque octet localement dans l'environnement sandbox de votre navigateur. Pas de téléchargement, pas de stockage côté serveur et aucun risque de violation de données."
+      },
+      "performance": {
+        "title": "Traitement Haute Performance",
+        "description": "Découvrez une vitesse de niveau natif pour les tâches complexes. En tirant parti des technologies de navigation modernes telles que les Web Workers et les bibliothèques spécialisées, nous gérons les gros PDF, les images haute résolution et les extractions de texte complexes avec une efficacité fulgurante."
+      },
+      "noTracking": {
+        "title": "Zéro Analyse ou Suivi",
+        "description": "Votre vie privée est notre spécification, pas seulement une fonctionnalité. Nous n'utilisons pas de cookies, de pixels espions ou d'analyses tierces. Nous n'avons aucun moyen de savoir qui vous êtes ou ce que vous traitez — exactement comme cela devrait être."
+      },
+      "memory": {
+        "title": "Mémoire Pure Locale",
+        "description": "Pas de stockage persistant, pas de caches cachés. Toutes les données des fichiers résident temporairement dans la RAM de votre navigateur et sont instantanément purgées dès que vous fermez l'onglet ou terminez votre tâche. Votre disque reste propre et vos données restent les vôtres."
+      },
+      "instant": {
+        "title": "Exécution Instantanée",
+        "description": "Éliminez le cycle 'Téléchargement-Attente-Récupération'. Comme le traitement se produit sur votre propre matériel, même les documents de plusieurs centaines de pages commencent à se transformer à la seconde où vous les déposez. Pas de file d'attente, pas de décalage serveur, juste des résultats instantanés."
+      },
+      "openSource": {
+        "title": "Transparent & Open Source",
+        "description": "Faites confiance mais vérifiez. PDFNeo est entièrement open-source, permettant aux chercheurs et aux développeurs d'auditer nos revendications de sécurité. Vous pouvez même cloner le dépôt et héberger votre propre instance privée pour un contrôle total de l'infrastructure."
+      }
+    }
+  },
+  "tools": {
+    "pdf-to-word": { "name": "PDF en Word", "description": "Convertissez des documents PDF en fichiers Word modifiables" },
+    "pdf-to-image": { "name": "PDF en Image", "description": "Exportez des pages PDF sous forme d'images de haute qualité" },
+    "pdf-to-text": { "name": "PDF en Texte", "description": "Extrayez tout le contenu textuel des PDF" },
+    "image-to-pdf": { "name": "Image en PDF", "description": "Combinez des images en un seul PDF" },
+    "merge-pdf": { "name": "Fusionner PDF", "description": "Combinez plusieurs PDF en un seul document" },
+    "split-pdf": { "name": "Diviser PDF", "description": "Divisez un PDF en documents séparés" },
+    "compress-pdf": { "name": "Compresser PDF", "description": "Réduisez la taille du fichier PDF sans perdre en qualité" },
+    "rotate-pdf": { "name": "Faire pivoter PDF", "description": "Faites pivoter les pages PDF dans n'importe quelle orientation" },
+    "delete-pages": { "name": "Supprimer des pages", "description": "Supprimez les pages indésirables de votre PDF" },
+    "extract-pages": { "name": "Extraire des pages", "description": "Extrayez des pages spécifiques d'un PDF" },
+    "edit-metadata": { "name": "Modifier les métadonnées", "description": "Modifiez le titre, l'auteur et les propriétés du PDF" },
+    "crop-pdf": { "name": "Recadrer PDF", "description": "Recadrez et ajustez les marges des pages PDF" },
+    "resize-pdf": { "name": "Redimensionner PDF", "description": "Modifiez les dimensions des pages PDF" },
+    "edit-pdf": { "name": "Éditer PDF", "description": "Modifiez le texte, ajoutez des images et modifiez directement le contenu du PDF" },
+    "flatten-pdf": { "name": "Aplatir PDF", "description": "Aplatissez les champs de formulaire et les annotations" },
+    "protect-pdf": { "name": "Protéger PDF", "description": "Ajoutez une protection par mot de passe à votre PDF" },
+    "unlock-pdf": { "name": "Déverrouiller PDF", "description": "Supprimez le mot de passe des PDF protégés" },
+    "extract-images": { "name": "Extraire des images", "description": "Récupérez toutes les images d'un document PDF" },
+    "watermark": { "name": "Ajouter un filigrane", "description": "Ajoutez des filigranes texte ou image aux PDF" },
+    "page-numbers": { "name": "Numéros de page", "description": "Ajoutez des numéros de page à votre PDF" },
+    "header-footer": { "name": "En-tête & Pied de page", "description": "Ajoutez des en-têtes et des pieds de page aux pages PDF" },
+    "esign": { "name": "Signature électronique PDF", "description": "Signez électroniquement vos documents PDF" },
+    "repair-pdf": { "name": "Réparer PDF", "description": "Réparez les fichiers PDF corrompus ou endommagés" }
+  }
+}

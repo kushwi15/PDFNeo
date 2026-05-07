@@ -1,0 +1,70 @@
+{
+  "nav": { "home": "Strona główna", "about": "O nas", "security": "Bezpieczeństwo", "tools": "Narzędzia" },
+  "hero": {
+    "title": "Każde narzędzie PDF, którego potrzebujesz.",
+    "titleGradient": "100% w Twojej przeglądarce.",
+    "subtitle": "Twoje dane to prawo, a nie zasób. PDFNeo to darmowy zestaw narzędzi PDF, w którym Twoje pliki nigdy nie opuszczają Twojego urządzenia. Brak wysyłania. Brak śledzenia. 100% prywatności.",
+    "securityLink": "Dowiedz się, jak dbamy o bezpieczeństwo Twoich plików →",
+    "explore": "Eksploruj narzędzia",
+    "github": "Zobacz na GitHubie",
+    "badges": { "privacy": "Prywatność przede wszystkim", "noUploads": "Brak wysyłania plików", "openSource": "Open source" }
+  },
+  "toolsGrid": {
+    "title": "Wszystkie narzędzia PDF, których potrzebujesz",
+    "subtitle": "Każde narzędzie działa lokalnie w Twojej przeglądarce. Nic nigdy nie jest wysyłane.",
+    "categories": { "conversion": "Konwersja", "editing": "Edycja i organizacja", "security": "Bezpieczeństwo" }
+  },
+  "privacy": {
+    "title": "Twoje pliki. Twoje urządzenie. Twoje zasady.",
+    "subtitle": "PDFNeo został zbudowany na prostej zasadzie: Twoje dokumenty nigdy nie powinny opuszczać Twojego komputera.",
+    "cardTitle": "Bezpieczna obsługa dokumentów",
+    "cardText": "Przetwarzasz wrażliwe dokumenty, takie jak wyciągi bankowe lub dowody tożsamości? PDFNeo to najbezpieczniejsza opcja, ponieważ działa całkowicie offline w pamięci Twojej przeglądarki.",
+    "verdict": "Werdykt dotyczący prywatności: Zero ryzyka",
+    "items": {
+      "noServers": { "title": "Brak serwerów w chmurze", "detail": "Eliminujemy potrzebę serwerów dokumentów, redukując powierzchnię ataku do zera." },
+      "noTracking": { "title": "Surowe zasady anty-śledzenia", "detail": "Nie mamy baz danych na zapleczu, nie wymagamy logowania i absolutnie nie gromadzimy danych." },
+      "volatile": { "title": "Tylko pamięć ulotna", "detail": "Twoje dane istnieją tylko podczas bieżącej sesji. Pamięć jest zwalniana po zakończeniu pracy." },
+      "auditable": { "title": "W pełni audytowalny kod", "detail": "Cała nasza implementacja jest publiczna, co gwarantuje, że nasza obietnica jest dokładnie tym, co mówimy." }
+    }
+  },
+  "footer": {
+    "copyright": "© {{year}} PDFNeo. Open source na licencji MIT.",
+    "privacy": "Prywatność",
+    "terms": "Warunki",
+    "contact": "Kontakt",
+    "github": "GitHub"
+  },
+  "about": {
+    "description": "Historia nowoczesnego edytora PDF dbającego o prywatność.",
+    "missionTitle": "Nasza misja",
+    "missionText": "PDFNeo zrodził się z prostego problemu: większość narzędzi PDF online wymaga wysyłania wrażliwych dokumentów na ich serwery. Wierzymy w prostą, nienegocjowalną prawdę: Twoje dane to prawo, a nie zasób, i powinny pozostać dokładnie tam, gdzie ich miejsce: w Twoich rękach.",
+    "missionSubtext": "Naszą misją jest dostarczanie profesjonalnych narzędzi PDF, które są szybkie, darmowe i w 100% prywatne.",
+    "privacyTitle": "Prywatność przede wszystkim",
+    "privacyText": "Brak wysyłania. Brak przechowywania. Pełna kontrola nad Twoimi plikami.",
+    "securityTitle": "Bezpieczeństwo z natury",
+    "securityText": "100% lokalne przetwarzanie przy użyciu nowoczesnej technologii WebAssembly.",
+    "devTitle": "Deweloper",
+    "devText": "PDFNeo jest rozwijany i utrzymywany przez Kushwintha Kumara. Jako deweloper pasjonujący się prywatnością i technologiami internetowymi, chciałem stworzyć narzędzie, któremu użytkownicy będą mogli zaufać w przypadku swoich najbardziej wrażliwych dokumentów.",
+    "connect": "Połącz się z deweloperem"
+  },
+  "security": {
+    "title": "Bezpieczeństwo i przejrzystość",
+    "description": "Szczegółowe informacje o tym, jak PDFNeo dba o bezpieczeństwo Twoich dokumentów.",
+    "clientSideTitle": "100% przetwarzanie po stronie klienta",
+    "clientSideText": "Twoje pliki nigdy nie opuszczają Twojego komputera. Nie mamy serwerów przechowujących Twoje dokumenty.",
+    "howItWorks": "Jak to działa",
+    "wasmTitle": "WebAssembly (WASM)",
+    "wasmText": "Używamy WebAssembly do uruchamiania potężnej logiki manipulacji PDF bezpośrednio w pamięci Twojej przeglądarki.",
+    "designTitle": "Prywatność w fazie projektowania",
+    "designText": "Ponieważ nie ma etapu „wysyłania”, nie ma szans na naruszenie po stronie serwera ani na przechwycenie plików przez dewelopera.",
+    "hostingTitle": "Statyczny hosting",
+    "hostingText": "PDFNeo jest hostowany jako aplikacja statyczna. Po załadowaniu teoretycznie można odłączyć się od Internetu, a aplikacja nadal będzie działać.",
+    "redFlags": "Odpowiedź na „czerwone flagi”",
+    "redFlagsSubtitle": "Mamy świadomość, że małe narzędzia mogą budzić podejrzliwość. Oto jak weryfikujemy nasze bezpieczeństwo:",
+    "noTracking": "Brak śledzenia: Nie używamy inwazyjnych trackerów ani nie sprzedajemy Twoich zachowań reklamodawcom.",
+    "openCode": "Otwarty kod: Nasz kod źródłowy jest publiczny. Każdy może go audytować, aby zapewnić bezpieczeństwo.",
+    "noAccount": "Konto nie jest wymagane: Nigdy nie prosimy o e-mail ani login. Twoja tożsamość należy do Ciebie.",
+    "sensitiveTitle": "Bezpieczne dla wrażliwych danych",
+    "sensitiveText": "PDFNeo to jedno z najbezpieczniejszych miejsc do przetwarzania wrażliwych dokumentów, takich jak wyciągi bankowe i umowy prawne."
+  }
+}

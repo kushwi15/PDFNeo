@@ -1,0 +1,70 @@
+{
+  "nav": { "home": "Home", "about": "Over ons", "security": "Beveiliging", "tools": "Tools" },
+  "hero": {
+    "title": "Elke PDF-tool die u nodig hebt.",
+    "titleGradient": "100% in uw browser.",
+    "subtitle": "Uw gegevens zijn een recht, geen middel. PDFNeo is een gratis PDF-toolkit waarbij uw bestanden uw apparaat nooit verlaten. Geen uploads. Geen tracking. 100% privé.",
+    "securityLink": "Ontdek hoe we uw bestanden veilig houden →",
+    "explore": "Tools verkennen",
+    "github": "Bekijk op GitHub",
+    "badges": { "privacy": "Privacy eerst", "noUploads": "Geen bestandsuploads", "openSource": "Open source" }
+  },
+  "toolsGrid": {
+    "title": "Alle PDF-tools die u nodig hebt",
+    "subtitle": "Elke tool draait lokaal in uw browser. Niets wordt ooit geüpload.",
+    "categories": { "conversion": "Conversie", "editing": "Bewerking & Organisatie", "security": "Beveiliging" }
+  },
+  "privacy": {
+    "title": "Uw bestanden. Uw apparaat. Uw regels.",
+    "subtitle": "PDFNeo is gebouwd met een eenvoudig principe: uw documenten mogen uw computer nooit verlaten.",
+    "cardTitle": "Documentverwerking zonder risico",
+    "cardText": "Verwerkt u gevoelige documenten zoals bankafschriften of ID's? PDFNeo is de veiligste optie omdat het volledig offline werkt in het geheugen van uw browser.",
+    "verdict": "Privacy-oordeel: Nul risico",
+    "items": {
+      "noServers": { "title": "Geen cloudservers", "detail": "We elimineren de noodzaak voor document-servers, waardoor het aanvalsoppervlak tot nul wordt gereduceerd." },
+      "noTracking": { "title": "Strikte anti-tracking", "detail": "We hebben geen backend-databases, geen inlogvereisten en absoluut geen data-harvesting." },
+      "volatile": { "title": "Alleen vluchtig geheugen", "detail": "Uw gegevens zijn alleen persistent tijdens uw huidige sessie. Het geheugen wordt vrijgegeven zodra u klaar bent." },
+      "auditable": { "title": "Volledig controleerbare code", "detail": "Onze volledige implementatie is openbaar, wat garandeert dat onze belofte precies is wat het zegt." }
+    }
+  },
+  "footer": {
+    "copyright": "© {{year}} PDFNeo. Open source onder MIT-licentie.",
+    "privacy": "Privacy",
+    "terms": "Voorwaarden",
+    "contact": "Contact",
+    "github": "GitHub"
+  },
+  "about": {
+    "description": "Het verhaal achter de moderne, privacy-gerichte PDF-editor.",
+    "missionTitle": "Onze missie",
+    "missionText": "PDFNeo is ontstaan uit een eenvoudig probleem: de meeste online PDF-tools vereisen dat u uw gevoelige documenten naar hun servers uploadt. Wij geloven in een eenvoudige, niet-onderhandelbare waarheid: uw gegevens zijn een recht, geen middel, en ze moeten precies blijven waar ze horen: in uw handen.",
+    "missionSubtext": "Onze missie is om professionele PDF-tools te bieden die snel, gratis en 100% privé zijn.",
+    "privacyTitle": "Privacy eerst",
+    "privacyText": "Geen uploads. Geen opslag. Totale controle over uw bestanden.",
+    "securityTitle": "Veilig van nature",
+    "securityText": "100% lokale verwerking met behulp van moderne WebAssembly-technologie.",
+    "devTitle": "De ontwikkelaar",
+    "devText": "PDFNeo wordt ontwikkeld en onderhouden door Kushwinth Kumar. Als ontwikkelaar met een passie voor privacy en webtechnologie wilde ik een tool maken die gebruikers kunnen vertrouwen met hun meest gevoelige documenten.",
+    "connect": "Verbind met de ontwikkelaar"
+  },
+  "security": {
+    "title": "Beveiliging & Transparantie",
+    "description": "Gedetailleerde informatie over hoe PDFNeo uw documenten veilig houdt.",
+    "clientSideTitle": "100% verwerking aan de clientzijde",
+    "clientSideText": "Uw bestanden verlaten uw computer nooit. We hebben geen servers die uw documenten opslaan.",
+    "howItWorks": "Hoe het werkt",
+    "wasmTitle": "WebAssembly (WASM)",
+    "wasmText": "We gebruiken WebAssembly om krachtige PDF-manipulatie-logica direct in het geheugen van uw browser uit te voeren.",
+    "designTitle": "Privacy by Design",
+    "designText": "Omdat er geen 'upload'-stap is, is er geen kans op een inbreuk aan de serverzijde of dat een ontwikkelaar uw bestanden onderschept.",
+    "hostingTitle": "Statische hosting",
+    "hostingText": "PDFNeo wordt gehost als een statische applicatie. Eenmaal geladen, zou u theoretisch de verbinding met het internet kunnen verbreken en zou het nog steeds werken.",
+    "redFlags": "Aanpakken van 'Red Flags'",
+    "redFlagsSubtitle": "We zijn ons ervan bewust dat kleine tools verdacht kunnen zijn. Hier ziet u hoe we onze veiligheid verifiëren:",
+    "noTracking": "Geen tracking: We gebruiken geen invasieve trackers en verkopen uw gedrag niet aan adverteerders.",
+    "openCode": "Open code: Onze broncode is openbaar. Iedereen kan deze controleren om de veiligheid te garanderen.",
+    "noAccount": "Geen account nodig: We vragen nooit om uw e-mailadres of login. Uw identiteit is van uzelf.",
+    "sensitiveTitle": "Veilig voor gevoelige gegevens",
+    "sensitiveText": "PDFNeo is een van de veiligste plekken om gevoelige documenten zoals bankafschriften en juridische contracten te verwerken."
+  }
+}

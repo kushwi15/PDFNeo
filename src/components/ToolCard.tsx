@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { Badge } from "@/components/ui/badge";
 import type { PdfTool } from "@/lib/tools";
 
+import { useTranslation } from "react-i18next";
+
 interface ToolCardProps {
   tool: PdfTool;
   index: number;
@@ -10,6 +12,7 @@ interface ToolCardProps {
 
 const ToolCard = ({ tool, index }: ToolCardProps) => {
   const Icon = tool.icon;
+  const { t } = useTranslation();
 
   return (
     <Link to={tool.route} className="block">
@@ -23,8 +26,8 @@ const ToolCard = ({ tool, index }: ToolCardProps) => {
         <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
           <Icon className="h-6 w-6" />
         </div>
-        <h3 className="font-display text-sm font-semibold">{tool.name}</h3>
-        <p className="text-xs leading-relaxed text-muted-foreground">{tool.description}</p>
+        <h3 className="font-display text-sm font-semibold">{t(`tools.${tool.id}.name`)}</h3>
+        <p className="text-xs leading-relaxed text-muted-foreground">{t(`tools.${tool.id}.description`)}</p>
       </motion.div>
     </Link>
   );
