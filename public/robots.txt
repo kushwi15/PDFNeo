@@ -1,4 +1,10 @@
 User-agent: *
 Allow: /
 
+# Sitemap
 Sitemap: https://pdfneo.vercel.app/sitemap.xml
+
+# Crawl Delay
+Crawl-delay: 1
+
+# Disallow specific patterns if any (none currently needed for PDFNeo)
