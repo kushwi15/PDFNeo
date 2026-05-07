@@ -20,22 +20,22 @@ const Navbar = () => {
         </Link>
 
         <div className="hidden items-center gap-6 md:flex">
-          <NavLink 
-            to="/" 
+          <NavLink
+            to="/"
             className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
             activeClassName="text-primary font-bold"
           >
             {t('nav.home')}
           </NavLink>
-          <NavLink 
-            to="/about" 
+          <NavLink
+            to="/about"
             className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
             activeClassName="text-primary font-bold"
           >
             {t('nav.about')}
           </NavLink>
-          <NavLink 
-            to="/security" 
+          <NavLink
+            to="/security"
             className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
             activeClassName="text-green-600 font-bold"
           >
@@ -48,11 +48,11 @@ const Navbar = () => {
 
         <div className="flex items-center gap-3">
           <LanguageSelector />
-          <Button variant="ghost" size="icon" asChild>
+          {/* <Button variant="ghost" size="icon" asChild>
             <a href="https://github.com/kushwi15/PDFNeo" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <Github className="h-5 w-5" />
             </a>
-          </Button>
+          </Button> */}
           <Button asChild>
             <Link to="/#tools">Get Started</Link>
           </Button>

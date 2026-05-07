@@ -18,29 +18,29 @@ const Footer = () => {
             Free, open-source, and privacy-first PDF tools. Built with ❤️.
           </p>
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 text-sm text-muted-foreground">
-            <NavLink 
-              to="/about" 
+            <NavLink
+              to="/about"
               className="hover:text-foreground transition-colors"
               activeClassName="text-foreground font-bold"
             >
               {t('nav.about')}
             </NavLink>
-            <NavLink 
-              to="/security" 
+            <NavLink
+              to="/security"
               className="hover:text-foreground transition-colors"
               activeClassName="text-green-600 font-bold"
             >
               {t('nav.security')}
             </NavLink>
-            <NavLink 
-              to="/privacy" 
+            <NavLink
+              to="/privacy"
               className="hover:text-foreground transition-colors"
               activeClassName="text-foreground font-bold"
             >
               {t('footer.privacy')}
             </NavLink>
-            <NavLink 
-              to="/terms" 
+            <NavLink
+              to="/terms"
               className="hover:text-foreground transition-colors"
               activeClassName="text-foreground font-bold"
             >
@@ -49,7 +49,7 @@ const Footer = () => {
             <Link to="/about" className="hover:text-foreground transition-colors">
               {t('footer.contact')}
             </Link>
-            <a href="https://github.com/kushwi15" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
+            <a href="https://github.com/kushwi15/PDFNeo" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
               {t('footer.github')}
             </a>
           </div>
